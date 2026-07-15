@@ -176,7 +176,7 @@ const SITE = {
       },
 
       about: {
-        heading: "Sobre mí",
+        heading: "LOL",
         body: [
           "Soy gestora cultural y comisaria en Berlín, nacida en Barcelona. Desarrollo exposiciones y programas culturales en el ámbito del arte contemporáneo y la música, trabajando entre el comisariado, la producción cultural y la gestión de artistas.",
           "Disfruto transformando ideas en proyectos y acompañándolos desde la primera conversación hasta su realización. Colaboro con artistas, instituciones y espacios independientes para dar forma a experiencias culturales cuidadas, bien articuladas y pensadas para conectar a las personas a través de la cultura.", "Mi práctica está especialmente vinculada a cuestiones como la transformación, la memoria, la identidad y el arraigo. Estos temas atraviesan los proyectos que desarrollo, ya sean exposiciones, conciertos o programas públicos, buscando siempre generar nuevas conexiones entre las personas, las prácticas artísticas y los contextos culturales.", "Aunque mi trabajo reciente se ha centrado en el arte contemporáneo y la música, cada vez me interesa más desarrollar programas culturales multidisciplinares que reúnan diferentes disciplinas, comunidades y formas de experimentar la cultura."
