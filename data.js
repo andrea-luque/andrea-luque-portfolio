@@ -40,7 +40,7 @@ const SITE = {
         enter: "Enter site"
       },
 
-      about: {
+      {
         heading: "About Me",
         body: [
           "Andrea Luque Martín is a cultural manager and curator based in Berlin, originally from Barcelona. Her practice sits at the intersection of curating, cultural event production and artist management.",
