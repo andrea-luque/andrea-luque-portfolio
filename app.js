@@ -159,7 +159,7 @@
         ${artists}
       </div>
     </section>`;
-},;
+},
     },
 
     skills(t) {
