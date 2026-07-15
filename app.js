@@ -119,7 +119,7 @@
 
       return `
         <section class="view">
-          <p class="eyebrow">${t.nav.curatorial}</p>
+   
           <h1 class="page-title">${t.curatorial.heading}</h1>
           <p class="muted" style="max-width:520px;margin-bottom:30px;">${t.curatorial.intro}</p>
           <div class="project-grid">${items}</div>
@@ -147,7 +147,7 @@
 
       return `
         <section class="view">
-          <p class="eyebrow">${t.nav.skills}</p>
+        
           <h1 class="page-title">${t.skills.heading}</h1>
           <div class="skills-groups">${groups}</div>
         </section>`;
@@ -166,7 +166,7 @@
 
       return `
         <section class="view">
-          <p class="eyebrow">${t.nav.cv}</p>
+          
           <h1 class="page-title">${t.cv.heading}</h1>
           <div class="cv-list">${rows}</div>
           <a class="cv-download" href="${SITE.cvPdf}" download>${t.cv.downloadCv}</a>
@@ -183,7 +183,7 @@
 
       return `
         <section class="view">
-          <p class="eyebrow">${t.nav.education}</p>
+          
           <h1 class="page-title">${t.education.heading}</h1>
           <div class="edu-list">${rows}</div>
         </section>`;
@@ -192,7 +192,7 @@
     contact(t) {
       return `
         <section class="view">
-          <p class="eyebrow">${t.nav.contact}</p>
+          
           <h1 class="page-title">${t.contact.heading}</h1>
           <p class="contact-intro">${t.contact.intro}</p>
           <div class="contact-list">
