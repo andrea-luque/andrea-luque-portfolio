@@ -43,8 +43,8 @@ const SITE = {
     about: {
         heading: "About Me",
         body: [
-          "Andrea Luque Martín is a cultural manager and curator based in Berlin, originally from Barcelona. Her practice sits at the intersection of curating, cultural event production and artist management.",
-          "She works with artists, spaces and projects that need structure, visual sensitivity and a clear reading of the contemporary cultural context."
+          "I’m a cultural manager and curator based in Berlin, originally from Barcelona. I develop exhibitions and cultural programmes across contemporary art and music, working across curating, cultural production and artist management.",
+          "I enjoy translating ideas into projects, accompanying them from the initial concept through to production and delivery. I collaborate with artists, institutions and independent spaces to build thoughtful, well-organised cultural experiences that bring people together through creativity.", "Across my work, I’m particularly interested in themes of transformation, memory, identity and belonging. These ideas shape the projects I develop, whether through exhibitions, concerts or public programmes, always with the aim of creating meaningful encounters between people, artistic practices and cultural contexts.", "While my recent work has centred on contemporary art and music, I’m increasingly interested in interdisciplinary programming that brings together different disciplines, communities and ways of experiencing culture."
         ]
       },
 
