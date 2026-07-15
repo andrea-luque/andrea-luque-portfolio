@@ -127,15 +127,39 @@
     },
 
     curatorialDetail(t, slug) {
-      const p = t.curatorial.projects.find((x) => x.slug === slug);
-      if (!p) return views.curatorial(t);
-      return `
-        <section class="view">
-          <a class="back-link" href="#/${state.lang}/curatorial">${t.curatorial.backToList}</a>
-          <div class="project-detail-meta"><span>${p.date}</span><span>${p.venue}</span></div>
-          <h1 class="project-detail-title">${p.title}</h1>
-          <div class="project-detail-body">${p.body.map((par) => `<p>${par}</p>`).join("")}</div>
-        </section>`;
+  const p = t.curatorial.projects.find((x) => x.slug === slug);
+  if (!p) return views.curatorial(t);
+
+  const gallery = p.images && p.images.length
+    ? `<div class="project-gallery">
+        ${p.images.map((img) => `
+          <figure class="project-gallery-item">
+            <img src="${img.src}" alt="${img.alt || ''}" loading="lazy">
+          </figure>`).join("")}
+      </div>`
+    : "";
+
+  const artists = p.artists && p.artists.length
+    ? `<aside class="project-artists">
+        <p class="project-artists-label">Featured artists</p>
+        <ul class="project-artists-list">
+          ${p.artists.map((name) => `<li>${name}</li>`).join("")}
+        </ul>
+      </aside>`
+    : "";
+
+  return `
+    <section class="view">
+      <a class="back-link" href="#/${state.lang}/curatorial">${t.curatorial.backToList}</a>
+      <div class="project-detail-meta"><span>${p.date}</span><span>${p.venue}</span></div>
+      <h1 class="project-detail-title">${p.title}</h1>
+      ${gallery}
+      <div class="project-detail-columns">
+        <div class="project-detail-body">${p.body.map((par) => `<p>${par}</p>`).join("")}</div>
+        ${artists}
+      </div>
+    </section>`;
+},;
     },
 
     skills(t) {
