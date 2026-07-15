@@ -178,8 +178,8 @@ const SITE = {
       about: {
         heading: "Sobre mí",
         body: [
-          "Andrea Luque Martín es gestora cultural y comisaria afincada en Berlín, originaria de Barcelona. Su práctica se sitúa en la intersección entre el comisariado, la producción de eventos culturales y la gestión de artistas.",
-          "Trabaja con artistas, espacios y proyectos que necesitan estructura, sensibilidad visual y una lectura clara del contexto cultural contemporáneo."
+          "Soy gestora cultural y comisaria en Berlín, nacida en Barcelona. Desarrollo exposiciones y programas culturales en el ámbito del arte contemporáneo y la música, trabajando entre el comisariado, la producción cultural y la gestión de artistas.",
+          "Disfruto transformando ideas en proyectos y acompañándolos desde la primera conversación hasta su realización. Colaboro con artistas, instituciones y espacios independientes para dar forma a experiencias culturales cuidadas, bien articuladas y pensadas para conectar a las personas a través de la cultura.", "Mi práctica está especialmente vinculada a cuestiones como la transformación, la memoria, la identidad y el arraigo. Estos temas atraviesan los proyectos que desarrollo, ya sean exposiciones, conciertos o programas públicos, buscando siempre generar nuevas conexiones entre las personas, las prácticas artísticas y los contextos culturales.", "Aunque mi trabajo reciente se ha centrado en el arte contemporáneo y la música, cada vez me interesa más desarrollar programas culturales multidisciplinares que reúnan diferentes disciplinas, comunidades y formas de experimentar la cultura."
         ]
       },
 
@@ -313,8 +313,8 @@ const SITE = {
       about: {
         heading: "Sobre mi",
         body: [
-          "Andrea Luque Martín és gestora cultural i comissària establerta a Berlín, originària de Barcelona. La seva pràctica se situa a la intersecció entre el comissariat, la producció d'esdeveniments culturals i la gestió d'artistes.",
-          "Treballa amb artistes, espais i projectes que necessiten estructura, sensibilitat visual i una lectura clara del context cultural contemporani."
+          "Soc gestora cultural i comissària a Berlín, nascuda a Barcelona. Desenvolupo exposicions i programes culturals en l’àmbit de l’art contemporani i la música, treballant entre el comissariat, la producció cultural i la gestió d’artistes.",
+          "M’agrada transformar idees en projectes i acompanyar-los des de la primera conversa fins a la seva realització. Col·laboro amb artistes, institucions i espais independents per donar forma a experiències culturals cuidades, ben articulades i pensades per connectar les persones a través de la cultura.", "La meva pràctica està especialment vinculada a qüestions com la transformació, la memòria, la identitat i l’arrelament. Aquests temes travessen els projectes que desenvolupo, ja siguin exposicions, concerts o programes públics, amb la voluntat de generar noves connexions entre les persones, les pràctiques artístiques i els contextos culturals.", "Tot i que la meva feina recent s’ha centrat en l’art contemporani i la música, cada vegada m’interessa més desenvolupar programes culturals multidisciplinaris que facin dialogar diferents disciplines, comunitats i maneres de viure la cultura."
         ]
       },
 
