@@ -103,7 +103,7 @@
     about(t) {
       return `
         <section class="view about-body">
-          <p class="eyebrow">${t.nav.about}</p>
+          
           <h1>${t.about.heading}</h1>
           ${t.about.body.map((p) => `<p>${p}</p>`).join("")}
         </section>`;
