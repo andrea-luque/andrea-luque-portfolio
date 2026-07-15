@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Andrea Luque Martín — Cultural Manager &amp; Curator</title>
+<meta name="description" content="Portfolio of Andrea Luque Martín, cultural manager and curator based in Berlin.">
+<meta name="theme-color" content="#faf9f6">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Andrea Luque Martín — Cultural Manager & Curator">
+<meta property="og:description" content="Curatorial work, exhibitions and cultural production between Barcelona and Berlin.">
+<meta property="og:type" content="website">
+
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="layout">
+
+  <!-- ============================ SIDEBAR ============================ -->
+  <header class="sidebar">
+    <div class="sidebar-top">
+      <a href="#/en/home" class="identity" data-route="home">
+        <span class="identity-name" id="identity-name">Andrea Luque Martín</span>
+        <span class="identity-role" id="identity-role">Cultural Manager &amp; Curator — Berlin</span>
+      </a>
+
+      <nav class="lang-switch" id="lang-switch" aria-label="Language">
+        <button type="button" data-lang="en">EN</button>
+        <span class="sep">/</span>
+        <button type="button" data-lang="es">ES</button>
+        <span class="sep">/</span>
+        <button type="button" data-lang="ca">CA</button>
+      </nav>
+    </div>
+
+    <nav class="main-nav" id="main-nav" aria-label="Sections">
+      <ul>
+        <li><a href="#/en/home" data-route="home" id="nav-home">Home</a></li>
+        <li><a href="#/en/about" data-route="about" id="nav-about">About Me</a></li>
+        <li>
+          <a href="#/en/curatorial" data-route="curatorial" id="nav-curatorial">Curatorial Work</a>
+          <ul class="sub-nav" id="sub-nav-curatorial"></ul>
+        </li>
+        <li><a href="#/en/skills" data-route="skills" id="nav-skills">Skills</a></li>
+        <li><a href="#/en/cv" data-route="cv" id="nav-cv">CV / Experience</a></li>
+        <li><a href="#/en/education" data-route="education" id="nav-education">Education</a></li>
+        <li><a href="#/en/contact" data-route="contact" id="nav-contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="sidebar-bottom">
+      <a id="sidebar-email" class="sidebar-email" href="mailto:andrealuque04@gmail.com">andrealuque04@gmail.com</a>
+      <span class="sidebar-location" id="sidebar-location">Barcelona → Berlin</span>
+    </div>
+  </header>
+
+  <!-- ============================ CONTENT ============================ -->
+  <main class="content" id="content" tabindex="-1">
+    <!-- rendered by app.js -->
+  </main>
+
+</div>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
