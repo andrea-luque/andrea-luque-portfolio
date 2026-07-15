@@ -22,7 +22,7 @@ const SITE = {
     /* ------------------------------------------------------------------ */
     en: {
       langLabel: "EN",
-      role: "Cultural Manager & Curator — Berlin",
+      role: "Cultural Manager and Curator",
 
       nav: {
         home: "Home",
@@ -35,8 +35,8 @@ const SITE = {
       },
 
       home: {
-        tagline: "Editorial work, curating and cultural production between Barcelona and Berlin.",
-        cta: "Available for freelance and full-time curatorial roles.",
+        tagline: "Developing and coordinating cultural projects.",
+        cta: "Berlin / Barcelona.",
         enter: "Enter site"
       },
 
@@ -157,7 +157,7 @@ const SITE = {
     /* ------------------------------------------------------------------ */
     es: {
       langLabel: "ES",
-      role: "Gestora Cultural y Comisaria — Berlín",
+      role: "Gestora Cultural y Comisaria",
 
       nav: {
         home: "Inicio",
@@ -170,8 +170,8 @@ const SITE = {
       },
 
       home: {
-        tagline: "Trabajo editorial, comisariado y producción cultural entre Barcelona y Berlín.",
-        cta: "Disponible para proyectos freelance y puestos curatoriales estables.",
+        tagline: "Desarrollo y coordinación de proyectos culturales",
+        cta: "Berlín / Barcelona",
         enter: "Entrar"
       },
 
@@ -292,7 +292,7 @@ const SITE = {
     /* ------------------------------------------------------------------ */
     ca: {
       langLabel: "CA",
-      role: "Gestora Cultural i Comissària — Berlín",
+      role: "Gestora Cultural i Comissària ",
 
       nav: {
         home: "Inici",
@@ -305,8 +305,8 @@ const SITE = {
       },
 
       home: {
-        tagline: "Treball editorial, comissariat i producció cultural entre Barcelona i Berlín.",
-        cta: "Disponible per a projectes freelance i llocs curatorials estables.",
+        tagline: "Desenvolupament i coordinació de projectes culturals",
+        cta: "Berlin / Barcelona",
         enter: "Entrar"
       },
 
