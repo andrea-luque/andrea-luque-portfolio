@@ -61,12 +61,12 @@ const SITE = {
             summary: "An exhibition about thresholds, presence and spatial relations.",
             body: [
               "\"The Space in Between\" gathered a group of artists working across sculpture, installation and photography to examine the threshold — the doorway, the corridor, the pause — as both physical condition and psychological state.",
-              "The exhibition was staged to move visitors through a sequence of transitional rooms, treating circulation itself as curatorial material."
+              "The exhibition was staged to move visitors through a sequence of transitional rooms, treating circulation itself as curatorial material."material."],
                images: [
     { src: "images/curatorial/space-in-between-1.jpg", alt: "Installation view" },
     { src: "images/curatorial/space-in-between-2.jpg", alt: "Installation view, detail" }
   ],
-  artists: ["Artist Name One", "Artist Name Two", "Artist Name Three"]
+  artists: ["Artist Name One", "Artist Name Two", "Artist Name Three"],
 }
             ]
           },
