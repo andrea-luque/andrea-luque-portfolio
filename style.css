@@ -63,7 +63,11 @@ ul{ list-style: none; margin: 0; padding: 0; }
   overflow-y: auto;
 }
 
-.sidebar-top{ : flex; flex-direction: column; gap: 18px; }
+.sidebar-top{ 
+   display: flex; 
+   flex-direction: column; 
+   gap: 18px;
+}
 
 .identity{ : flex; flex-direction: column; gap: 4px; }
 .identity-name{
