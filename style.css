@@ -69,7 +69,11 @@ ul{ list-style: none; margin: 0; padding: 0; }
    gap: 18px;
 }
 
-.identity{ : flex; flex-direction: column; gap: 4px; }
+.identity{ 
+   display: flex; 
+   flex-direction: column; 
+   gap: 4px; 
+}
 .identity-name{
   font-size: 21px;
   font-weight: 500;
@@ -109,7 +113,11 @@ ul{ list-style: none; margin: 0; padding: 0; }
 .lang-switch .sep{ color: var(--rule-2); }
 
 .main-nav{ margin-top: 40px; }
-.main-nav > ul{ : flex; flex-direction: column; gap: 11px; }
+.main-nav > ul{
+   display: flex; 
+   flex-direction: column; 
+   gap: 11px; 
+}
 .main-nav a{
   font-size: 15.5px;
   padding: 1px 0;
