@@ -69,7 +69,6 @@ const SITE = {
             ],
             artists: ["Artist Name One", "Artist Name Two", "Artist Name Three"]
           },
-          },
           {
             slug: "the-stretch-of-becoming",
             title: "The Stretch of Becoming",
