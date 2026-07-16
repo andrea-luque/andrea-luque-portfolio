@@ -118,7 +118,7 @@ const SITE = {
           },
           {
             label: "Communication",
-            items: ["Digital and social media strategy", "Audience development", "English", "Spanish", "Catalan", "Written and editorial content"]
+            items: ["Digital and social media strategy", "Audience development", "Full Proficiency Working: Spanish, Catalan, English", "Written and editorial content"]
           }
         ]
       },
@@ -253,7 +253,7 @@ const SITE = {
           },
           {
             label: "Comunicación",
-            items: ["Estrategia digital y redes sociales", "Desarrollo de públicos", "Trilingüe — inglés, castellano, catalán", "Contenido escrito y editorial"]
+            items: ["Estrategia digital y redes sociales", "Desarrollo de públicos", "Competencia profesional completa: Castellano, Catalán e Inglés", "Contenido escrito y editorial"]
           }
         ]
       },
@@ -388,7 +388,7 @@ const SITE = {
           },
           {
             label: "Comunicació",
-            items: ["Estratègia digital i xarxes socials", "Desenvolupament de públics", "Trilingüe — anglès, castellà, català", "Contingut escrit i editorial"]
+            items: ["Estratègia digital i xarxes socials", "Desenvolupament de públics", "Competència professional completa: castellà, català i anglès", "Contingut escrit i editorial"]
           }
         ]
       },
