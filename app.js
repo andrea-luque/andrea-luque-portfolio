@@ -161,7 +161,7 @@
 },
 
     practice(t) {
-      const groups = t.skills.groups.map((g) => `
+      const groups = t.practice.groups.map((g) => `
         <div class="skills-group">
           <p class="skills-group-label">${g.label}</p>
           <ul>${g.items.map((i) => `<li>${i}</li>`).join("")}</ul>
