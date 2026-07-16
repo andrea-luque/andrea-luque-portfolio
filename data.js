@@ -64,9 +64,10 @@ const SITE = {
               "The exhibition was staged to move visitors through a sequence of transitional rooms, treating circulation itself as curatorial material."
             ],
             images: [
-              { src: "images/curatorial/space-in-between-1.jpg", alt: "Installation view" },
-              { src: "images/curatorial/space-in-between-2.jpg", alt: "Installation view, detail" }
-            ],
+  { src: "images/curatorial/space-in-between-1.jpg", alt: "Installation view", caption: "Artist Name One — installation view, 2025" },
+  { src: "images/curatorial/space-in-between-2.jpg", alt: "Installation view, detail", caption: "Artist Name Two — detail, 2025" },
+  { src: "images/curatorial/space-in-between-3.jpg", alt: "Installation view, wide", caption: "Artist Name Three — wide shot, 2025" }
+],
             artists: ["Artist Name One", "Artist Name Two", "Artist Name Three"]
           },
           {
