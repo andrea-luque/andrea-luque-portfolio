@@ -95,7 +95,6 @@
       return `
         <section class="view home-view">
           <p class="home-tagline">${t.home.tagline}</p>
-          <p class="home-cta">${t.home.cta}</p>
         </section>`;
     },
 
@@ -231,7 +230,6 @@
               <a class="contact-value" href="${SITE.linkedin}" target="_blank" rel="noopener">LinkedIn</a>
             </div>
           </div>
-          <p class="contact-location">${t.contact.location}</p>
         </section>`;
     }
   };
