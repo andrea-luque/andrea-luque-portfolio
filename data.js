@@ -15,7 +15,7 @@ const SITE = {
 
   /* Path to a downloadable CV. Drop a PDF at assets/cv/ and point this
      at it (one per language works too, e.g. "assets/cv/cv-en.pdf"). */
-  cvPdf: "assets/cv/andrea-luque-martin-cv.pdf",
+  cvPdf: "assets/cv/Andrea-Luque-Martin-cv.pdf",
 
   content: {
 
