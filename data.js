@@ -168,7 +168,7 @@ const SITE = {
         home: "Inicio",
         about: "Sobre mí",
         curatorial: "Proyectos Curatoriales",
-        Practice: "Áreas",
+        practice: "Áreas",
         cv: "CV / Experiencia",
         education: "Formación",
         contact: "Contacto"
@@ -240,7 +240,7 @@ const SITE = {
         ]
       },
 
-      skills: {
+      practice: {
         heading: "Áreas",
         groups: [
           {
@@ -303,7 +303,7 @@ const SITE = {
         home: "Inici",
         about: "Sobre mi",
         curatorial: "Projectes Curatorials",
-        skills: "Àrees",
+        practice: "Àrees",
         cv: "CV / Experiència",
         education: "Formació",
         contact: "Contacte"
@@ -375,7 +375,7 @@ const SITE = {
         ]
       },
 
-      skills: {
+      practice: {
         heading: "Àrees",
         groups: [
           {
