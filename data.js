@@ -28,7 +28,7 @@ const SITE = {
         home: "Home",
         about: "About Me",
         curatorial: "Curatorial Work",
-        skills: "Skills",
+        practice: "Practice",
         cv: "CV / Experience",
         education: "Education",
         contact: "Contact"
@@ -105,8 +105,8 @@ const SITE = {
         ]
       },
 
-      skills: {
-        heading: "Skills",
+      practice: {
+        heading: "Practice",
         groups: [
           {
             label: "Curatorial practice",
@@ -114,11 +114,11 @@ const SITE = {
           },
           {
             label: "Production & management",
-            items: ["Artist & booking management", "Event production and logistics", "Venue and stakeholder communication", "Budgeting and administrative coordination"]
+            items: ["Artist & booking management", "Event production and logistics", "Venue and stakeholder communication", "Budgeting and administrative coordination", "Set design & spatial coordination"]
           },
           {
             label: "Communication",
-            items: ["Digital and social media strategy", "Audience development", "Trilingual — English, Spanish, Catalan", "Written and editorial content"]
+            items: ["Digital and social media strategy", "Audience development", "English", "Spanish", "Catalan", "Written and editorial content"]
           }
         ]
       },
@@ -168,7 +168,7 @@ const SITE = {
         home: "Inicio",
         about: "Sobre mí",
         curatorial: "Proyectos Curatoriales",
-        skills: "Habilidades",
+        Practice: "Áreas",
         cv: "CV / Experiencia",
         education: "Formación",
         contact: "Contacto"
@@ -241,7 +241,7 @@ const SITE = {
       },
 
       skills: {
-        heading: "Habilidades",
+        heading: "Áreas",
         groups: [
           {
             label: "Práctica curatorial",
@@ -303,7 +303,7 @@ const SITE = {
         home: "Inici",
         about: "Sobre mi",
         curatorial: "Projectes Curatorials",
-        skills: "Habilitats",
+        skills: "Àrees",
         cv: "CV / Experiència",
         education: "Formació",
         contact: "Contacte"
@@ -376,7 +376,7 @@ const SITE = {
       },
 
       skills: {
-        heading: "Habilitats",
+        heading: "Àrees",
         groups: [
           {
             label: "Pràctica curatorial",
