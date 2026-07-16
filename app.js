@@ -125,39 +125,46 @@
     },
 
     curatorialDetail(t, slug) {
-  const p = t.curatorial.projects.find((x) => x.slug === slug);
-  if (!p) return views.curatorial(t);
+      const p = t.curatorial.projects.find((x) => x.slug === slug);
+      if (!p) return views.curatorial(t);
 
-  const gallery = p.images && p.images.length
-    ? `<div class="project-gallery">
-        ${p.images.map((img) => `
-          <figure class="project-gallery-item">
-            <img src="${img.src}" alt="${img.alt || ''}" loading="lazy">
-          </figure>`).join("")}
-      </div>`
-    : "";
+      const images = p.images && p.images.length ? p.images : null;
 
-  const artists = p.artists && p.artists.length
-    ? `<aside class="project-artists">
-        <p class="project-artists-label">Featured artists</p>
-        <ul class="project-artists-list">
-          ${p.artists.map((name) => `<li>${name}</li>`).join("")}
-        </ul>
-      </aside>`
-    : "";
+      const imageBlock = images
+        ? `<figure class="project-figure" data-index="0">
+            <div class="project-figure-frame">
+              ${images.map((img, i) => `<img src="${img.src}" alt="${img.alt || ''}" class="${i === 0 ? 'active' : ''}">`).join("")}
+              <button type="button" class="gallery-arrow prev" data-dir="-1" aria-label="Previous"><span>‹</span></button>
+              <button type="button" class="gallery-arrow next" data-dir="1" aria-label="Next"><span>›</span></button>
+            </div>
+            <figcaption class="project-caption">${images[0].caption || ""}</figcaption>
+            ${images.length > 1 ? `<div class="gallery-dots">${images.map((_, i) => `<button type="button" data-goto="${i}" class="${i === 0 ? 'active' : ''}"></button>`).join("")}</div>` : ""}
+          </figure>`
+        : "";
 
-  return `
-    <section class="view">
-      <a class="back-link" href="#/${state.lang}/curatorial">${t.curatorial.backToList}</a>
-      <div class="project-detail-meta"><span>${p.date}</span><span>${p.venue}</span></div>
-      <h1 class="project-detail-title">${p.title}</h1>
-      ${gallery}
-      <div class="project-detail-columns">
-        <div class="project-detail-body">${p.body.map((par) => `<p>${par}</p>`).join("")}</div>
-        ${artists}
-      </div>
-    </section>`;
-},
+      const artists = p.artists && p.artists.length
+        ? `<div class="project-artists">
+            <p class="project-artists-label">Featured artists</p>
+            <ul class="project-artists-list">
+              ${p.artists.map((name) => `<li>${name}</li>`).join("")}
+            </ul>
+          </div>`
+        : "";
+
+      return `
+        <section class="view">
+          <a class="back-link" href="#/${state.lang}/curatorial">${t.curatorial.backToList}</a>
+          <div class="project-detail-columns">
+            <div class="project-detail-image">${imageBlock}</div>
+            <div class="project-detail-side">
+              <div class="project-detail-meta"><span>${p.date}</span><span>${p.venue}</span></div>
+              <h1 class="project-detail-title">${p.title}</h1>
+              <div class="project-detail-body">${p.body.map((par) => `<p>${par}</p>`).join("")}</div>
+              ${artists}
+            </div>
+          </div>
+        </section>`;
+    },
 
     practice(t) {
       const groups = t.practice.groups.map((g) => `
@@ -257,7 +264,43 @@
     contentEl.focus({ preventScroll: true });
     window.scrollTo(0, 0);
   }
+/* ---------------------------------------------------------------------
+     Gallery carousel (click / arrows / dots)
+     --------------------------------------------------------------------- */
+  contentEl.addEventListener("click", (e) => {
+    const figure = e.target.closest(".project-figure");
+    if (!figure) return;
 
+    const arrow = e.target.closest(".gallery-arrow");
+    const dot = e.target.closest("[data-goto]");
+    const frame = figure.querySelector(".project-figure-frame");
+    const imgs = figure.querySelectorAll(".project-figure-frame img");
+    const dots = figure.querySelectorAll(".gallery-dots button");
+    const t = SITE.content[state.lang];
+    const p = t.curatorial.projects.find((x) => x.slug === state.slug);
+    if (!p || !p.images) return;
+
+    let index = parseInt(figure.dataset.index, 10) || 0;
+
+    if (arrow) {
+      const dir = parseInt(arrow.dataset.dir, 10);
+      index = (index + dir + imgs.length) % imgs.length;
+    } else if (dot) {
+      index = parseInt(dot.dataset.goto, 10);
+    } else if (e.target.closest(".project-figure-frame")) {
+      // click on the photo itself: right half = next, left half = prev
+      const rect = frame.getBoundingClientRect();
+      const clickedRight = (e.clientX - rect.left) > rect.width / 2;
+      index = (index + (clickedRight ? 1 : -1) + imgs.length) % imgs.length;
+    } else {
+      return;
+    }
+
+    figure.dataset.index = index;
+    imgs.forEach((img, i) => img.classList.toggle("active", i === index));
+    dots.forEach((d, i) => d.classList.toggle("active", i === index));
+    figure.querySelector(".project-caption").textContent = p.images[index].caption || "";
+  });
   /* ---------------------------------------------------------------------
      Events
      --------------------------------------------------------------------- */
