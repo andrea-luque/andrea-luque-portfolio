@@ -5,7 +5,7 @@
 
 (function () {
   const VALID_LANGS = ["en", "es", "ca"];
-  const VALID_VIEWS = ["home", "about", "curatorial", "skills", "cv", "education", "contact"];
+  const VALID_VIEWS = ["home", "about", "curatorial", "practice", "cv", "education", "contact"];
   const DEFAULT_LANG = "en";
 
   const contentEl = document.getElementById("content");
@@ -50,7 +50,7 @@
     document.getElementById("nav-home").textContent = t.nav.home;
     document.getElementById("nav-about").textContent = t.nav.about;
     document.getElementById("nav-curatorial").textContent = t.nav.curatorial;
-    document.getElementById("nav-skills").textContent = t.nav.skills;
+    document.getElementById("nav-practice").textContent = t.nav.practice;
     document.getElementById("nav-cv").textContent = t.nav.cv;
     document.getElementById("nav-education").textContent = t.nav.education;
     document.getElementById("nav-contact").textContent = t.nav.contact;
@@ -160,7 +160,7 @@
     </section>`;
 },
 
-    skills(t) {
+    practice(t) {
       const groups = t.skills.groups.map((g) => `
         <div class="skills-group">
           <p class="skills-group-label">${g.label}</p>
@@ -170,7 +170,7 @@
       return `
         <section class="view">
         
-          <h1 class="page-title">${t.skills.heading}</h1>
+          <h1 class="page-title">${t.practice.heading}</h1>
           <div class="skills-groups">${groups}</div>
         </section>`;
     },
