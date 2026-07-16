@@ -361,10 +361,10 @@ p.muted{ color: var(--muted); }
   gap: 34px;
 }
 .skills-group-label{
-  font-family: var(--mono);
-  font-size: 11.5px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 15px;
+  letter-spacing: 0.01em;
   color: var(--muted);
   margin: 0 0 12px;
 }
