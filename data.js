@@ -147,7 +147,7 @@ const SITE = {
       contact: {
         heading: "Contact",
         intro: "Open to curatorial collaborations, exhibition proposals and cultural production roles.",
-        location: "Barcelona → Berlin",
+        location: "Berlin / Barcelona",
         emailLabel: "Email",
         instagramLabel: "Instagram",
         linkedinLabel: "LinkedIn"
@@ -282,7 +282,7 @@ const SITE = {
       contact: {
         heading: "Contacto",
         intro: "Abierta a colaboraciones curatoriales, propuestas expositivas y puestos de producción cultural.",
-        location: "Barcelona → Berlín",
+        location: "Berlín / Barcelona",
         emailLabel: "Correo",
         instagramLabel: "Instagram",
         linkedinLabel: "LinkedIn"
@@ -417,7 +417,7 @@ const SITE = {
       contact: {
         heading: "Contacte",
         intro: "Oberta a col·laboracions curatorials, propostes expositives i llocs de producció cultural.",
-        location: "Barcelona → Berlín",
+        location: "Berlín / Barcelona",
         emailLabel: "Correu",
         instagramLabel: "Instagram",
         linkedinLabel: "LinkedIn"
