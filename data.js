@@ -146,7 +146,7 @@ const SITE = {
 
       contact: {
         heading: "Contact",
-        intro: "Open to curatorial collaborations, exhibition proposals and cultural production roles.",
+        intro: "Open to cultural management, curatorial and production opportunities. Get in touch to discuss collaborations, projects or new ideas.",
         location: "Berlin / Barcelona",
         emailLabel: "Email",
         instagramLabel: "Instagram",
@@ -281,7 +281,7 @@ const SITE = {
 
       contact: {
         heading: "Contacto",
-        intro: "Abierta a colaboraciones curatoriales, propuestas expositivas y puestos de producción cultural.",
+        intro: "Abierta a oportunidades de gestión cultural, comisariado y producción. Ponte en contacto para hablar de colaboraciones, proyectos o nuevas ideas.",
         location: "Berlín / Barcelona",
         emailLabel: "Correo",
         instagramLabel: "Instagram",
@@ -416,7 +416,7 @@ const SITE = {
 
       contact: {
         heading: "Contacte",
-        intro: "Oberta a col·laboracions curatorials, propostes expositives i llocs de producció cultural.",
+        intro: "Oberta a oportunitats de gestió cultural, comissariat i producció. Posa't en contacte per parlar de col·laboracions, projectes o noves idees.",
         location: "Berlín / Barcelona",
         emailLabel: "Correu",
         instagramLabel: "Instagram",
