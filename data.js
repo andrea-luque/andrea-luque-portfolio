@@ -79,9 +79,12 @@ const SITE = {
             date: "7–9 November 2025",
             summary: "A curatorial reading of transformation, body and process.",
             body: [
-              "\"The Stretch of Becoming\" brought together performance, video and textile-based work to explore transformation as an ongoing, unfinished process rather than a fixed outcome.",
-              "The three-day format allowed the exhibition to shift and be re-installed across its run, mirroring the very idea of becoming it set out to address."
-            ]
+              "\"The Stretch of Becoming\" The Stretch of Becoming explores the continual need and urge to stretch as a means of expansion, transformation, connection, and the ongoing construction of our lives. Stretching is never neutral—it holds both fear and fascination, both expansion and reduction. The inevitable ruptures and changes that emerge through this process define who we become, shaping identity, memory, and belonging in perpetual cycles of construction and reconstruction.
+The artists embrace transformation across personal, political, and spiritual dimensions. They reflect lived experiences of queerness, femininity, migration, racism, and neurodivergence—revealing the body, memory, and identity as elastic sites where fragility, endurance, and resilience coexist.",
+              "Stretching here is both rupture and repair, comfort and discomfort, survival and imagination. The exhibition amplifies the elastic nature of human existence—where expansion carries both terror and wonder, and where becoming is never complete. It is a testament to endurance, reminding us that transformation is not a single act but an ongoing state of being.
+"
+            ],
+             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum","Hannah Wilder".]
           },
           {
             slug: "as-the-light-fades",
