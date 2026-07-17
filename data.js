@@ -60,15 +60,17 @@ const SITE = {
             date: "28 May 2025",
             summary: "An exhibition about thresholds, presence and spatial relations.",
             body: [
-              "\"The Space in Between\" gathered a group of artists working across sculpture, installation and photography to examine the threshold — the doorway, the corridor, the pause — as both physical condition and psychological state.",
-              "The exhibition was staged to move visitors through a sequence of transitional rooms, treating circulation itself as curatorial material."
+              "The Space In Between is a group exhibition that encourages you to pause and notice the small, delicate moments of change that shape our lives. In a world that rarely slows down, these in-between spaces, such as those between the digital and the physical, presence and absence, or noise and silence, can feel uncertain but also meaningful.",
+              "The works in this show explore what it means to live with changing identities and ongoing transformation. They consider how our experiences are shaped by technology, movement, and our relationships, often mixing what is real with what is imagined.",
+              "Here, you will find pieces that reflect the tension of moving between different worlds and the surprising beauty that can appear when you slow down and find some quiet.",
+              "The Space In Between isn’t just about uncertainty, it’s about possibility. This exhibition offers a gentle space for reflection, for feeling, and maybe even for rediscovering yourself in the moments where everything slows down and new meanings can take shape."
             ],
             images: [
   { src: "images/curatorial/space-in-between-1.jpg", alt: "Installation view", caption: "Artist Name One — installation view, 2025" },
   { src: "images/curatorial/space-in-between-2.jpg", alt: "Installation view, detail", caption: "Artist Name Two — detail, 2025" },
   { src: "images/curatorial/space-in-between-3.jpg", alt: "Installation view, wide", caption: "Artist Name Three — wide shot, 2025" }
 ],
-            artists: ["Artist Name One", "Artist Name Two", "Artist Name Three"]
+            artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
           },
           {
             slug: "the-stretch-of-becoming",
