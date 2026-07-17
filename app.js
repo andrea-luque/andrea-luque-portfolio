@@ -95,6 +95,11 @@
       return `
         <section class="view home-view">
           <p class="home-tagline">${t.home.tagline}</p>
+          <div class="home-photos">
+            <img class="home-photo" src="images/home/photo-1.jpg" alt="">
+            <img class="home-photo" src="images/home/photo-2.jpg" alt="">
+            <img class="home-photo" src="images/home/photo-3.jpg" alt="">
+          </div>
         </section>`;
     },
 
@@ -110,9 +115,8 @@
     curatorial(t) {
       const items = t.curatorial.projects.map((p) => `
         <a class="project-entry" href="#/${state.lang}/curatorial/${p.slug}">
-          <div class="project-meta"><span>${p.date}</span><span>${p.venue}</span></div>
           <h3 class="project-title">${p.title}</h3>
-          <p class="project-summary">${p.summary}</p>
+          <div class="project-meta"><span>${p.date}</span><span>${p.venue}</span></div>
         </a>`).join("");
 
       return `
