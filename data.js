@@ -40,11 +40,13 @@ const SITE = {
         enter: "Enter site"
       },
 
-    about: {
+      about: {
         heading: "About Me",
         body: [
           "I’m a cultural manager and curator based in Berlin, originally from Barcelona. I develop exhibitions and cultural programmes across contemporary art and music, working across curating, cultural production and artist management.",
-          "I enjoy translating ideas into projects, accompanying them from the initial concept through to production and delivery. I collaborate with artists, institutions and independent spaces to build thoughtful, well-organised cultural experiences that bring people together through creativity.", "Across my work, I’m particularly interested in themes of transformation, memory, identity and belonging. These ideas shape the projects I develop, whether through exhibitions, concerts or public programmes, always with the aim of creating meaningful encounters between people, artistic practices and cultural contexts.", "While my recent work has centred on contemporary art and music, I’m increasingly interested in interdisciplinary programming that brings together different disciplines, communities and ways of experiencing culture."
+          "I enjoy translating ideas into projects, accompanying them from the initial concept through to production and delivery. I collaborate with artists, institutions and independent spaces to build thoughtful, well-organised cultural experiences that bring people together through creativity.",
+          "Across my work, I’m particularly interested in themes of transformation, memory, identity and belonging. These ideas shape the projects I develop, whether through exhibitions, concerts or public programmes, always with the aim of creating meaningful encounters between people, artistic practices and cultural contexts.",
+          "While my recent work has centred on contemporary art and music, I’m increasingly interested in interdisciplinary programming that brings together different disciplines, communities and ways of experiencing culture."
         ]
       },
 
@@ -53,7 +55,7 @@ const SITE = {
         intro: "A selection of exhibitions and curatorial projects, from concept to installation.",
         backToList: "Back to Curatorial Work",
         projects: [
-           {
+          {
             slug: "the-space-in-between",
             title: "The Space in Between",
             venue: "Backhaus Projects, Berlin",
@@ -66,10 +68,10 @@ const SITE = {
               "The Space In Between isn’t just about uncertainty, it’s about possibility. This exhibition offers a gentle space for reflection, for feeling, and maybe even for rediscovering yourself in the moments where everything slows down and new meanings can take shape."
             ],
             images: [
-  { src: "images/curatorial/space-in-between-1.jpg", alt: "Installation view", caption: "Artist Name One — installation view, 2025" },
-  { src: "images/curatorial/space-in-between-2.jpg", alt: "Installation view, detail", caption: "Artist Name Two — detail, 2025" },
-  { src: "images/curatorial/space-in-between-3.jpg", alt: "Installation view, wide", caption: "Artist Name Three — wide shot, 2025" }
-],
+              { src: "images/curatorial/space-in-between-1.jpg", alt: "Installation view", caption: "Artist Name One — installation view, 2025" },
+              { src: "images/curatorial/space-in-between-2.jpg", alt: "Installation view, detail", caption: "Artist Name Two — detail, 2025" },
+              { src: "images/curatorial/space-in-between-3.jpg", alt: "Installation view, wide", caption: "Artist Name Three — wide shot, 2025" }
+            ],
             artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
           },
           {
@@ -79,12 +81,11 @@ const SITE = {
             date: "7–9 November 2025",
             summary: "A curatorial reading of transformation, body and process.",
             body: [
-              "\"The Stretch of Becoming\" The Stretch of Becoming explores the continual need and urge to stretch as a means of expansion, transformation, connection, and the ongoing construction of our lives. Stretching is never neutral—it holds both fear and fascination, both expansion and reduction. The inevitable ruptures and changes that emerge through this process define who we become, shaping identity, memory, and belonging in perpetual cycles of construction and reconstruction.
-The artists embrace transformation across personal, political, and spiritual dimensions. They reflect lived experiences of queerness, femininity, migration, racism, and neurodivergence—revealing the body, memory, and identity as elastic sites where fragility, endurance, and resilience coexist.",
-              "Stretching here is both rupture and repair, comfort and discomfort, survival and imagination. The exhibition amplifies the elastic nature of human existence—where expansion carries both terror and wonder, and where becoming is never complete. It is a testament to endurance, reminding us that transformation is not a single act but an ongoing state of being.
-"
+              "The Stretch of Becoming explores the continual need and urge to stretch as a means of expansion, transformation, connection, and the ongoing construction of our lives. Stretching is never neutral — it holds both fear and fascination, both expansion and reduction. The inevitable ruptures and changes that emerge through this process define who we become, shaping identity, memory, and belonging in perpetual cycles of construction and reconstruction.",
+              "The artists embrace transformation across personal, political, and spiritual dimensions. They reflect lived experiences of queerness, femininity, migration, racism, and neurodivergence — revealing the body, memory, and identity as elastic sites where fragility, endurance, and resilience coexist.",
+              "Stretching here is both rupture and repair, comfort and discomfort, survival and imagination. The exhibition amplifies the elastic nature of human existence — where expansion carries both terror and wonder, and where becoming is never complete. It is a testament to endurance, reminding us that transformation is not a single act but an ongoing state of being."
             ],
-             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum","Hannah Wilder".]
+            artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
             slug: "as-the-light-fades",
@@ -93,9 +94,12 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "27–29 March 2026",
             summary: "A proposal around time, light and disappearance.",
             body: [
-              "\"As the Light Fades\" is a proposal built around natural light as a curatorial tool, with works installed to change in character as daylight moved through the space over three days.",
-              "The exhibition treated disappearance not as loss but as a legitimate form of an artwork's completion."
-            ]
+              "What happens when light disappears? What happens when the cables are cut, and darkness encroaches? The interruption of light can cause contrasting emotional and physical reactions. Sometimes distress and fear of the things unseen, and other times serenity and calmness.",
+              "In science, the Ganzfeld Effect answers this as the brain’s reaction to sensory deprivation: when visual input collapses, the mind begins to generate its own images, movements, and internal landscapes. The absence of light does not create emptiness, rather it activates a different mode of seeing.",
+              "This immediate interruption from the loss of light can cause distress but can also create calmness, prompting the brain to generate new movements — new forms of creation. In the exhibition, we aim to investigate these movements psychologically, physically, and artistically. How does this shift impact our perceptions, our memory, and our sense of the present? What does light change — and what does it create?",
+              "Light activates latent memories and reshapes the way we observe what surrounds us. Through the artistic exploration of this concept — often through the use of reflections, shadows, or subtle shifts of brightness — As the Light Fades suggests that to look is also to remember. And that every change in light rewrites what we think we have already seen."
+            ],
+            artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
           {
             slug: "where-the-memory-got-tangled",
@@ -104,9 +108,13 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "26–28 June 2026",
             summary: "An exhibition inquiry into memory, trace and affect.",
             body: [
-              "This exhibition inquiry into memory, trace and affect brought together artists whose work holds on to what is difficult to hold: a residue, a mark, an emotional register that resists clean narration.",
-              "Rather than presenting memory as archive, the show approached it as something actively, imperfectly, remade each time it's revisited."
-            ]
+              "There, Where Memory Became Entangled explores the intersection of two concepts that are central to the artistic practice of Raquel González Obregón: rootedness and memory.",
+              "To understand rootedness is to understand how individuals remain tethered to a place, a history, and a people, even as both shift and evolve over time. Drawing on thinkers such as Simone Weil, rootedness is understood as a fundamental human need that connects us to a community through shared relationships, stories, and knowledge. It is shaped by what we inherit and what we continue to practice: everyday rituals, celebrations, and traditions passed down from one generation to the next. It is within these spaces that memory remains alive and finds new ways to manifest itself.",
+              "The exhibition approaches memory from an intimate perspective, understanding it as one of the materials through which we construct our sense of self. Yet every personal memory also carries traces of familial, territorial, and collective histories that shape and inform it.",
+              "At the meeting point of memory and rootedness emerges the net, the exhibition’s central element. Present both as metaphor and material object, it speaks to the bonds that sustain us: emotional connections, social fabrics, processes of transmission, and forms of mutual care. At the same time, it evokes the maritime landscapes and fishing traditions that form part of the artist’s inherited memory and that of her hometown, Santander. The net thus becomes an image of the visible and invisible structures that connect us to one another, to the places we inhabit, and to the histories that precede us.",
+              "There, Where Memory Became Entangled seeks to make visible the threads that connect individual experience to collective memory, inviting reflection on the ways memories are transmitted, transformed, and continue to inhabit us."
+            ],
+            artists: ["Raquel González Obregón"]
           }
         ]
       },
@@ -190,7 +198,9 @@ The artists embrace transformation across personal, political, and spiritual dim
         heading: "Sobre mí",
         body: [
           "Soy gestora cultural y comisaria en Berlín, nacida en Barcelona. Desarrollo exposiciones y programas culturales en el ámbito del arte contemporáneo y la música, trabajando entre el comisariado, la producción cultural y la gestión de artistas.",
-          "Disfruto transformando ideas en proyectos y acompañándolos desde la primera conversación hasta su realización. Colaboro con artistas, instituciones y espacios independientes para dar forma a experiencias culturales cuidadas, bien articuladas y pensadas para conectar a las personas a través de la cultura.", "Mi práctica está especialmente vinculada a cuestiones como la transformación, la memoria, la identidad y el arraigo. Estos temas atraviesan los proyectos que desarrollo, ya sean exposiciones, conciertos o programas públicos, buscando siempre generar nuevas conexiones entre las personas, las prácticas artísticas y los contextos culturales.", "Aunque mi trabajo reciente se ha centrado en el arte contemporáneo y la música, cada vez me interesa más desarrollar programas culturales multidisciplinares que reúnan diferentes disciplinas, comunidades y formas de experimentar la cultura."
+          "Disfruto transformando ideas en proyectos y acompañándolos desde la primera conversación hasta su realización. Colaboro con artistas, instituciones y espacios independientes para dar forma a experiencias culturales cuidadas, bien articuladas y pensadas para conectar a las personas a través de la cultura.",
+          "Mi práctica está especialmente vinculada a cuestiones como la transformación, la memoria, la identidad y el arraigo. Estos temas atraviesan los proyectos que desarrollo, ya sean exposiciones, conciertos o programas públicos, buscando siempre generar nuevas conexiones entre las personas, las prácticas artísticas y los contextos culturales.",
+          "Aunque mi trabajo reciente se ha centrado en el arte contemporáneo y la música, cada vez me interesa más desarrollar programas culturales multidisciplinares que reúnan diferentes disciplinas, comunidades y formas de experimentar la cultura."
         ]
       },
 
@@ -217,9 +227,11 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "7–9 de noviembre de 2025",
             summary: "Una lectura curatorial de la transformación, el cuerpo y el proceso.",
             body: [
-              "«El tramo del devenir» reunió performance, vídeo y trabajo textil para explorar la transformación como proceso continuo e inacabado, y no como un resultado fijo.",
-              "El formato de tres días permitió que la exposición se modificara y reinstalara a lo largo de su duración, reflejando la propia idea de devenir que planteaba."
-            ]
+              "El tramo del devenir explora la necesidad y el impulso constantes de estirarse como forma de expansión, transformación, conexión y construcción continua de nuestras vidas. Estirarse nunca es neutral: contiene a la vez miedo y fascinación, expansión y reducción. Las rupturas y los cambios inevitables que surgen de este proceso definen en quién nos convertimos, dando forma a la identidad, la memoria y el arraigo en ciclos perpetuos de construcción y reconstrucción.",
+              "Los artistas abrazan la transformación en sus dimensiones personal, política y espiritual. Reflejan experiencias vividas de disidencia sexual, feminidad, migración, racismo y neurodivergencia, revelando el cuerpo, la memoria y la identidad como espacios elásticos donde conviven la fragilidad, la resistencia y la capacidad de recuperación.",
+              "Aquí, estirarse es a la vez ruptura y reparación, comodidad e incomodidad, supervivencia e imaginación. La exposición amplifica la naturaleza elástica de la existencia humana, donde la expansión conlleva tanto terror como asombro, y donde el devenir nunca se completa. Es un testimonio de resistencia, que nos recuerda que la transformación no es un acto único, sino un estado continuo del ser."
+            ],
+            artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
             slug: "as-the-light-fades",
@@ -228,9 +240,12 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "27–29 de marzo de 2026",
             summary: "Una propuesta sobre el tiempo, la luz y la desaparición.",
             body: [
-              "«Mientras la luz se apaga» es una propuesta construida a partir de la luz natural como herramienta curatorial, con obras que cambiaban de carácter a medida que la luz del día recorría el espacio durante tres jornadas.",
-              "La exposición trató la desaparición no como pérdida, sino como una forma legítima de completar una obra."
-            ]
+              "¿Qué ocurre cuando la luz desaparece? ¿Qué ocurre cuando se cortan los cables y la oscuridad se abre paso? La interrupción de la luz puede provocar reacciones emocionales y físicas contrapuestas. A veces angustia y miedo a lo que no se ve, y otras veces serenidad y calma.",
+              "En el ámbito científico, el efecto Ganzfeld explica esto como la reacción del cerebro a la privación sensorial: cuando el estímulo visual desaparece, la mente empieza a generar sus propias imágenes, movimientos y paisajes internos. La ausencia de luz no crea un vacío, sino que activa un modo distinto de ver.",
+              "Esta interrupción repentina provocada por la pérdida de luz puede generar angustia, pero también calma, impulsando al cerebro a generar nuevos movimientos, nuevas formas de creación. En esta exposición nos proponemos investigar estos movimientos desde lo psicológico, lo físico y lo artístico. ¿Cómo afecta este cambio a nuestra percepción, a nuestra memoria y a nuestro sentido del presente? ¿Qué transforma la luz, y qué crea?",
+              "La luz activa memorias latentes y transforma la manera en que observamos lo que nos rodea. A través de la exploración artística de este concepto —a menudo mediante reflejos, sombras o sutiles variaciones de luminosidad— Mientras la luz se apaga sugiere que mirar es también recordar. Y que cada cambio de luz reescribe aquello que creíamos haber visto ya."
+            ],
+            artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
           {
             slug: "where-the-memory-got-tangled",
@@ -239,9 +254,13 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "26–28 de junio de 2026",
             summary: "Una exposición que indaga en la memoria, la huella y el afecto.",
             body: [
-              "Esta indagación expositiva en la memoria, la huella y el afecto reunió a artistas cuyo trabajo se aferra a lo difícil de sostener: un residuo, una marca, un registro emocional que resiste la narración ordenada.",
-              "En lugar de presentar la memoria como archivo, la muestra la abordó como algo que se rehace, de forma activa e imperfecta, cada vez que se revisita."
-            ]
+              "Allí donde se enredó la memoria explora la intersección de dos conceptos centrales en la práctica artística de Raquel González Obregón: el arraigo y la memoria.",
+              "Comprender el arraigo es comprender cómo las personas permanecen vinculadas a un lugar, una historia y una comunidad, incluso cuando ambos cambian y evolucionan con el tiempo. Inspirándose en pensadoras como Simone Weil, el arraigo se entiende como una necesidad humana fundamental que nos conecta con una comunidad a través de relaciones, historias y saberes compartidos. Se conforma a partir de lo que heredamos y de lo que seguimos practicando: rituales cotidianos, celebraciones y tradiciones transmitidas de generación en generación. Es en estos espacios donde la memoria permanece viva y encuentra nuevas formas de manifestarse.",
+              "La exposición aborda la memoria desde una perspectiva íntima, entendiéndola como uno de los materiales con los que construimos nuestro sentido de identidad. Sin embargo, cada memoria personal lleva también huellas de historias familiares, territoriales y colectivas que la moldean.",
+              "En el punto de encuentro entre memoria y arraigo surge la red, elemento central de la exposición. Presente tanto como metáfora como objeto material, habla de los vínculos que nos sostienen: conexiones emocionales, tejidos sociales, procesos de transmisión y formas de cuidado mutuo. Al mismo tiempo, evoca los paisajes marítimos y las tradiciones pesqueras que forman parte de la memoria heredada de la artista y de su ciudad natal, Santander. La red se convierte así en una imagen de las estructuras visibles e invisibles que nos conectan entre nosotros, con los lugares que habitamos y con las historias que nos preceden.",
+              "Allí donde se enredó la memoria busca hacer visibles los hilos que conectan la experiencia individual con la memoria colectiva, invitando a reflexionar sobre las formas en que los recuerdos se transmiten, se transforman y siguen habitándonos."
+            ],
+            artists: ["Raquel González Obregón"]
           }
         ]
       },
@@ -325,7 +344,9 @@ The artists embrace transformation across personal, political, and spiritual dim
         heading: "Sobre mi",
         body: [
           "Soc gestora cultural i comissària a Berlín, nascuda a Barcelona. Desenvolupo exposicions i programes culturals en l’àmbit de l’art contemporani i la música, treballant entre el comissariat, la producció cultural i la gestió d’artistes.",
-          "M’agrada transformar idees en projectes i acompanyar-los des de la primera conversa fins a la seva realització. Col·laboro amb artistes, institucions i espais independents per donar forma a experiències culturals cuidades, ben articulades i pensades per connectar les persones a través de la cultura.", "La meva pràctica està especialment vinculada a qüestions com la transformació, la memòria, la identitat i l’arrelament. Aquests temes travessen els projectes que desenvolupo, ja siguin exposicions, concerts o programes públics, amb la voluntat de generar noves connexions entre les persones, les pràctiques artístiques i els contextos culturals.", "Tot i que la meva feina recent s’ha centrat en l’art contemporani i la música, cada vegada m’interessa més desenvolupar programes culturals multidisciplinaris que facin dialogar diferents disciplines, comunitats i maneres de viure la cultura."
+          "M’agrada transformar idees en projectes i acompanyar-los des de la primera conversa fins a la seva realització. Col·laboro amb artistes, institucions i espais independents per donar forma a experiències culturals cuidades, ben articulades i pensades per connectar les persones a través de la cultura.",
+          "La meva pràctica està especialment vinculada a qüestions com la transformació, la memòria, la identitat i l’arrelament. Aquests temes travessen els projectes que desenvolupo, ja siguin exposicions, concerts o programes públics, amb la voluntat de generar noves connexions entre les persones, les pràctiques artístiques i els contextos culturals.",
+          "Tot i que la meva feina recent s’ha centrat en l’art contemporani i la música, cada vegada m’interessa més desenvolupar programes culturals multidisciplinaris que facin dialogar diferents disciplines, comunitats i maneres de viure la cultura."
         ]
       },
 
@@ -352,9 +373,11 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "7–9 de novembre de 2025",
             summary: "Una lectura curatorial de la transformació, el cos i el procés.",
             body: [
-              "«El tram de l'esdevenir» va reunir performance, vídeo i treball tèxtil per explorar la transformació com a procés continu i inacabat, i no com un resultat fix.",
-              "El format de tres dies va permetre que l'exposició es modifiqués i es reinstal·lés al llarg de la seva durada, reflectint la mateixa idea d'esdevenir que plantejava."
-            ]
+              "El tram de l'esdevenir explora la necessitat i l'impuls constants d'estirar-se com a forma d'expansió, transformació, connexió i construcció contínua de les nostres vides. Estirar-se mai no és neutral: conté alhora por i fascinació, expansió i reducció. Les ruptures i els canvis inevitables que sorgeixen d'aquest procés defineixen en qui ens convertim, donant forma a la identitat, la memòria i l'arrelament en cicles perpetus de construcció i reconstrucció.",
+              "Els artistes abracen la transformació en les seves dimensions personal, política i espiritual. Reflecteixen experiències viscudes de dissidència sexual, feminitat, migració, racisme i neurodivergència, revelant el cos, la memòria i la identitat com a espais elàstics on conviuen la fragilitat, la resistència i la capacitat de recuperació.",
+              "Aquí, estirar-se és alhora ruptura i reparació, comoditat i incomoditat, supervivència i imaginació. L'exposició amplifica la naturalesa elàstica de l'existència humana, on l'expansió comporta tant terror com meravella, i on l'esdevenir no és mai complet. És un testimoni de resistència, que ens recorda que la transformació no és un acte únic, sinó un estat continu de l'ésser."
+            ],
+            artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
             slug: "as-the-light-fades",
@@ -363,9 +386,12 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "27–29 de març de 2026",
             summary: "Una proposta sobre el temps, la llum i la desaparició.",
             body: [
-              "«Mentre la llum s'apaga» és una proposta construïda a partir de la llum natural com a eina curatorial, amb obres que canviaven de caràcter a mesura que la llum del dia recorria l'espai durant tres jornades.",
-              "L'exposició va tractar la desaparició no com a pèrdua, sinó com una forma legítima de completar una obra."
-            ]
+              "Què passa quan la llum desapareix? Què passa quan es tallen els cables i la foscor s'obre pas? La interrupció de la llum pot provocar reaccions emocionals i físiques contraposades. De vegades angoixa i por d'allò que no es veu, i d'altres serenitat i calma.",
+              "En l'àmbit científic, l'efecte Ganzfeld explica això com la reacció del cervell a la privació sensorial: quan l'estímul visual desapareix, la ment comença a generar les seves pròpies imatges, moviments i paisatges interns. L'absència de llum no crea un buit, sinó que activa una manera diferent de veure.",
+              "Aquesta interrupció sobtada provocada per la pèrdua de llum pot generar angoixa, però també calma, impulsant el cervell a generar nous moviments, noves formes de creació. En aquesta exposició ens proposem investigar aquests moviments des del vessant psicològic, físic i artístic. Com afecta aquest canvi la nostra percepció, la nostra memòria i el nostre sentit del present? Què transforma la llum, i què crea?",
+              "La llum activa memòries latents i transforma la manera com observem allò que ens envolta. A través de l'exploració artística d'aquest concepte —sovint mitjançant reflexos, ombres o subtils variacions de lluminositat— Mentre la llum s'apaga suggereix que mirar és també recordar. I que cada canvi de llum reescriu allò que crèiem haver vist ja."
+            ],
+            artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
           {
             slug: "where-the-memory-got-tangled",
@@ -374,9 +400,13 @@ The artists embrace transformation across personal, political, and spiritual dim
             date: "26–28 de juny de 2026",
             summary: "Una exposició que indaga en la memòria, l'empremta i l'afecte.",
             body: [
-              "Aquesta indagació expositiva en la memòria, l'empremta i l'afecte va reunir artistes l'obra dels quals s'aferra a allò difícil de sostenir: un residu, una marca, un registre emocional que resisteix la narració ordenada.",
-              "En comptes de presentar la memòria com a arxiu, la mostra la va abordar com quelcom que es refà, de manera activa i imperfecta, cada vegada que es revisita."
-            ]
+              "Allà on es va enredar la memòria explora la intersecció de dos conceptes centrals en la pràctica artística de Raquel González Obregón: l'arrelament i la memòria.",
+              "Comprendre l'arrelament és comprendre com les persones romanen vinculades a un lloc, una història i una comunitat, fins i tot quan tots dos canvien i evolucionen amb el temps. Inspirant-se en pensadores com Simone Weil, l'arrelament s'entén com una necessitat humana fonamental que ens connecta amb una comunitat a través de relacions, històries i sabers compartits. Es conforma a partir del que heretem i del que continuem practicant: rituals quotidians, celebracions i tradicions transmeses de generació en generació. És en aquests espais on la memòria roman viva i troba noves maneres de manifestar-se.",
+              "L'exposició aborda la memòria des d'una perspectiva íntima, entenent-la com un dels materials amb què construïm el nostre sentit d'identitat. Tanmateix, cada memòria personal porta també empremtes d'històries familiars, territorials i col·lectives que la modelen.",
+              "En el punt de trobada entre memòria i arrelament sorgeix la xarxa, element central de l'exposició. Present tant com a metàfora com a objecte material, parla dels vincles que ens sostenen: connexions emocionals, teixits socials, processos de transmissió i formes de cura mútua. Alhora, evoca els paisatges marítims i les tradicions pesqueres que formen part de la memòria heretada de l'artista i de la seva ciutat natal, Santander. La xarxa esdevé així una imatge de les estructures visibles i invisibles que ens connecten entre nosaltres, amb els llocs que habitem i amb les històries que ens precedeixen.",
+              "Allà on es va enredar la memòria busca fer visibles els fils que connecten l'experiència individual amb la memòria col·lectiva, tot convidant a reflexionar sobre les maneres en què els records es transmeten, es transformen i continuen habitant-nos."
+            ],
+            artists: ["Raquel González Obregón"]
           }
         ]
       },
