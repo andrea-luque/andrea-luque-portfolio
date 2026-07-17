@@ -221,7 +221,15 @@ p.muted{ color: var(--muted); }
   line-height: 1.4;
   max-width: 520px;
   margin: 0 0 26px;
+  animation: bounce-up 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) both;
 }
+@keyframes bounce-up{
+  0%{ opacity: 0; transform: translateY(46px); }
+  55%{ opacity: 1; transform: translateY(-10px); }
+  75%{ transform: translateY(4px); }
+  100%{ opacity: 1; transform: translateY(0); }
+}
+
 .home-cta{
   font-family: var(--mono);
   font-size: 12.5px;
@@ -241,6 +249,28 @@ p.muted{ color: var(--muted); }
   background: var(--ink);
 }
 
+.home-photos{
+  display: flex;
+  gap: 18px;
+  margin-top: 10px;
+}
+.home-photo{
+  width: 160px;
+  height: 200px;
+  object-fit: cover;
+  border: 1px solid var(--rule);
+  opacity: 0;
+  transform: scale(0.85) translateY(14px);
+  animation: pop-in 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+}
+.home-photo:nth-child(1){ animation-delay: 0.3s; }
+.home-photo:nth-child(2){ animation-delay: 0.8s; }
+.home-photo:nth-child(3){ animation-delay: 1.3s; }
+@keyframes pop-in{
+  from{ opacity: 0; transform: scale(0.85) translateY(14px); }
+  to{ opacity: 1; transform: scale(1) translateY(0); }
+}
+
 /* ---------------------------- About --------------------------------------- */
 .about-body p{ font-size: 17.5px; max-width: 620px; }
 
@@ -256,20 +286,18 @@ p.muted{ color: var(--muted); }
 }
 .project-entry:last-child{ border-bottom: 1px solid var(--rule); }
 .project-meta{
-  font-family: var(--mono);
-  font-size: 11px;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-family: var(--serif);
+  font-size: 13px;
   color: var(--muted);
   display: flex;
   gap: 14px;
-  margin-bottom: 8px;
+  margin-top: 6px;
 }
 .project-title{
   font-size: 23px;
   font-style: italic;
   font-weight: 400;
-  margin: 0 0 8px;
+  margin: 0;
   transition: opacity 0.15s ease;
 }
 .project-entry:hover .project-title{ opacity: 0.6; }
@@ -387,6 +415,7 @@ p.muted{ color: var(--muted); }
 .cv-period{
   font-family: var(--serif);
   font-size: 12px;
+  font-weight: 700;
   color: var(--muted);
   padding-top: 2px;
   white-space: nowrap;
@@ -395,6 +424,7 @@ p.muted{ color: var(--muted); }
 .cv-place{
   font-family: var(--serif);
   font-size: 11px;
+  font-weight: 700;
   text-transform: none;
   letter-spacing: 0.03em;
   color: var(--muted);
@@ -422,8 +452,8 @@ p.muted{ color: var(--muted); }
 .edu-degree{ font-size: 18px; font-style: italic; margin: 0 0 6px; max-width: 520px; }
 .edu-place{ font-size: 15px; color: var(--muted); margin: 0; }
 .edu-period{
-  font-family: var(--mono);
-  font-size: 11px;
+  font-family: var(--serif);
+  font-size: 12px;
   color: var(--muted);
   text-transform: uppercase;
   margin-top: 4px;
@@ -441,8 +471,8 @@ p.muted{ color: var(--muted); }
   max-width: 480px;
 }
 .contact-label{
-  font-family: var(--mono);
-  font-size: 11px;
+  font-family: var(--serif);
+  font-size: 12px;
   text-transform: uppercase;
   color: var(--muted);
   width: 90px;
@@ -487,6 +517,8 @@ p.muted{ color: var(--muted); }
   .content{ padding: 48px 24px 90px; max-width: 100%; }
   .home-view{ min-height: auto; padding: 20px 0 10px; }
   .home-tagline{ font-size: 22px; }
+  .home-photos{ flex-wrap: wrap; }
+  .home-photo{ width: 120px; height: 150px; }
   .project-detail-title{ font-size: 27px; }
   .project-detail-columns{ grid-template-columns: 1fr; gap: 24px; }
 }
