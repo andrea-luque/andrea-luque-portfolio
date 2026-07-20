@@ -69,7 +69,7 @@ const SITE = {
             ],
             images: [
               { src: "space-in-between-1.jpg.jpeg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
-              { src: "space-in-between-2.jpeg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
+              { src: "images/curatorial/space-in-between-2.jpeg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
               { src: "images/curatorial/space-in-between-3.jpg", alt: "Installation view, wide", caption: "Artist Name Three — wide shot, 2025" }
             ],
             artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
