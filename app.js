@@ -96,7 +96,7 @@
         <section class="view home-view">
           <p class="home-tagline">${t.home.tagline}</p>
           <div class="home-photos">
-            <img class="home-photo" src="images/home/photo-1.jpg" alt="">
+            <img class="home-photo" src="images/curatorial/fotohome1.JPG" alt="">
             <img class="home-photo" src="images/home/photo-2.jpg" alt="">
             <img class="home-photo" src="images/home/photo-3.jpg" alt="">
           </div>
