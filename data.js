@@ -87,6 +87,13 @@ const SITE = {
               "The artists embrace transformation across personal, political, and spiritual dimensions. They reflect lived experiences of queerness, femininity, migration, racism, and neurodivergence — revealing the body, memory, and identity as elastic sites where fragility, endurance, and resilience coexist.",
               "Stretching here is both rupture and repair, comfort and discomfort, survival and imagination. The exhibition amplifies the elastic nature of human existence — where expansion carries both terror and wonder, and where becoming is never complete. It is a testament to endurance, reminding us that transformation is not a single act but an ongoing state of being."
             ],
+             images: [
+              { src: "space-in-between-1.jpg.jpeg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
+              { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel - Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke - xxx, 2025" },
+              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Sadie Weis - xxxx, 2025" },      
+            ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
