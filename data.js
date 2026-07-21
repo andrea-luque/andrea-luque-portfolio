@@ -230,7 +230,7 @@ const SITE = {
         intro: "Una selección de exposiciones y proyectos curatoriales, desde la idea hasta el montaje.",
         backToList: "Volver a Proyectos Curatoriales",
         projects: [
-          {{
+          {
   slug: "the-space-in-between",
   title: "The Space in Between",
   venue: "Backhaus Projects, Berlín",
