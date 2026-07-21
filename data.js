@@ -68,9 +68,9 @@ const SITE = {
               "The Space In Between isn’t just about uncertainty, it’s about possibility. This exhibition offers a gentle space for reflection, for feeling, and maybe even for rediscovering yourself in the moments where everything slows down and new meanings can take shape."
             ],
             images: [
-              { src: "space-in-between-1.jpg.jpeg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
-              { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
-              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel - Skinscreen, 2025" },
+              { src: "stretch1.jpg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
+              { src: "stretch2.heic", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
+              { src: "stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - Skinscreen, 2025" },
               { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke - xxx, 2025" },
               { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Sadie Weis - xxxx, 2025" },      
             ],
