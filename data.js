@@ -108,6 +108,13 @@ const SITE = {
               "This immediate interruption from the loss of light can cause distress but can also create calmness, prompting the brain to generate new movements — new forms of creation. In the exhibition, we aim to investigate these movements psychologically, physically, and artistically. How does this shift impact our perceptions, our memory, and our sense of the present? What does light change — and what does it create?",
               "Light activates latent memories and reshapes the way we observe what surrounds us. Through the artistic exploration of this concept — often through the use of reflections, shadows, or subtle shifts of brightness — As the Light Fades suggests that to look is also to remember. And that every change in light rewrites what we think we have already seen."
             ],
+             images: [
+  { src: "images/curatorial/lightfades1.jpg", alt: "Installation view", caption: "Serafima Bresles — installation view, 2026" },
+  { src: "images/curatorial/lightfades2.jpg", alt: "Installation view", caption: "Théo Guézennec — installation view, 2026" },
+  { src: "images/curatorial/lightfades3.jpg", alt: "Installation view", caption: "Jamal Khalili — installation view, 2026" },
+  { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
+  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
+],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
           {
@@ -123,6 +130,11 @@ const SITE = {
               "At the meeting point of memory and rootedness emerges the net, the exhibition’s central element. Present both as metaphor and material object, it speaks to the bonds that sustain us: emotional connections, social fabrics, processes of transmission, and forms of mutual care. At the same time, it evokes the maritime landscapes and fishing traditions that form part of the artist’s inherited memory and that of her hometown, Santander. The net thus becomes an image of the visible and invisible structures that connect us to one another, to the places we inhabit, and to the histories that precede us.",
               "There, Where Memory Became Entangled seeks to make visible the threads that connect individual experience to collective memory, inviting reflection on the ways memories are transmitted, transformed, and continue to inhabit us."
             ],
+             images: [
+  { src: "images/curatorial/memorytangled1.jpg", alt: "Installation view", caption: "Raquel González Obregón — installation view, 2026" },
+  { src: "images/curatorial/memorytangled2.jpg", alt: "Installation view, detail", caption: "Raquel González Obregón — detail, 2026" },
+  { src: "images/curatorial/memorytangled3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — wide view, 2026" }
+],
             artists: ["Raquel González Obregón"]
           }
         ]
@@ -218,20 +230,28 @@ const SITE = {
         intro: "Una selección de exposiciones y proyectos curatoriales, desde la idea hasta el montaje.",
         backToList: "Volver a Proyectos Curatoriales",
         projects: [
-          {
-            slug: "the-space-in-between",
-            title: "El espacio intermedio",
-            venue: "Backhaus Projects, Berlín",
-            date: "28 de mayo de 2025",
-            summary: "Una exposición sobre umbrales, presencia y relaciones espaciales.",
-            body: [
-              "«El espacio intermedio» reunió a un grupo de artistas que trabajan la escultura, la instalación y la fotografía para examinar el umbral —la puerta, el pasillo, la pausa— como condición física y también como estado psicológico.",
-              "La exposición se planteó para que el visitante atravesara una secuencia de salas de transición, tratando la propia circulación como material curatorial."
-            ]
-          },
+          {{
+  slug: "the-space-in-between",
+  title: "The Space in Between",
+  venue: "Backhaus Projects, Berlín",
+  date: "28 de mayo de 2025",
+  summary: "Una exposición sobre umbrales, presencia y relaciones espaciales.",
+  body: [
+    "«El espacio intermedio» reunió a un grupo de artistas que trabajan la escultura, la instalación y la fotografía para examinar el umbral —la puerta, el pasillo, la pausa— como condición física y también como estado psicológico.",
+    "La exposición se planteó para que el visitante atravesara una secuencia de salas de transición, tratando la propia circulación como material curatorial."
+  ],
+  images: [
+    { src: "images/curatorial/spaceinbetween1.jpg", alt: "Vista de instalación", caption: "Johanna Dreyer — vista de instalación, 2025" },
+    { src: "images/curatorial/spaceinbetween2.jpg", alt: "Vista de instalación, detalle", caption: "Pascual Candel — Skinphone, 2025" },
+    { src: "images/curatorial/spaceinbetween3.jpg", alt: "Vista de instalación, general", caption: "Pascual Candel — Skinscreen, 2025" },
+    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de instalación", caption: "Johanna Grotzke — vista de instalación, 2025" },
+    { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de instalación", caption: "Sadie Weis — vista de instalación, 2025" }
+  ],
+  artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
+},
           {
             slug: "the-stretch-of-becoming",
-            title: "El tramo del devenir",
+            title: "The Stretch Of Becoming",
             venue: "Pandora Art Gallery, Berlín",
             date: "7–9 de noviembre de 2025",
             summary: "Una lectura curatorial de la transformación, el cuerpo y el proceso.",
@@ -240,11 +260,18 @@ const SITE = {
               "Los artistas abrazan la transformación en sus dimensiones personal, política y espiritual. Reflejan experiencias vividas de disidencia sexual, feminidad, migración, racismo y neurodivergencia, revelando el cuerpo, la memoria y la identidad como espacios elásticos donde conviven la fragilidad, la resistencia y la capacidad de recuperación.",
               "Aquí, estirarse es a la vez ruptura y reparación, comodidad e incomodidad, supervivencia e imaginación. La exposición amplifica la naturaleza elástica de la existencia humana, donde la expansión conlleva tanto terror como asombro, y donde el devenir nunca se completa. Es un testimonio de resistencia, que nos recuerda que la transformación no es un acto único, sino un estado continuo del ser."
             ],
+             images: [
+  { src: "stretch1.jpg", alt: "Vista de instalación", caption: "Michalina Marta Cap — vista de instalación, 2025" },
+  { src: "stretch2.heic", alt: "Vista de instalación, detalle", caption: "Pascual Candel — vista de instalación, 2025" },
+  { src: "stretch3.jpg", alt: "Vista de instalación, general", caption: "Carina Chang — vista de instalación, 2025" },
+  { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de instalación", caption: "Onyx Chladilova — vista de instalación, 2025" },
+  { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de instalación", caption: "Eva Fomitski — vista de instalación, 2025" }
+],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
             slug: "as-the-light-fades",
-            title: "Mientras la luz se apaga",
+            title: "As The Light Fades",
             venue: "Rossmann Culterim, Berlín",
             date: "27–29 de marzo de 2026",
             summary: "Una propuesta sobre el tiempo, la luz y la desaparición.",
@@ -254,6 +281,13 @@ const SITE = {
               "Esta interrupción repentina provocada por la pérdida de luz puede generar angustia, pero también calma, impulsando al cerebro a generar nuevos movimientos, nuevas formas de creación. En esta exposición nos proponemos investigar estos movimientos desde lo psicológico, lo físico y lo artístico. ¿Cómo afecta este cambio a nuestra percepción, a nuestra memoria y a nuestro sentido del presente? ¿Qué transforma la luz, y qué crea?",
               "La luz activa memorias latentes y transforma la manera en que observamos lo que nos rodea. A través de la exploración artística de este concepto —a menudo mediante reflejos, sombras o sutiles variaciones de luminosidad— Mientras la luz se apaga sugiere que mirar es también recordar. Y que cada cambio de luz reescribe aquello que creíamos haber visto ya."
             ],
+             images: [
+  { src: "images/curatorial/lightfades1.jpg", alt: "Vista de instalación", caption: "Serafima Bresles — vista de instalación, 2026" },
+  { src: "images/curatorial/lightfades2.jpg", alt: "Vista de instalación", caption: "Théo Guézennec — vista de instalación, 2026" },
+  { src: "images/curatorial/lightfades3.jpg", alt: "Vista de instalación", caption: "Jamal Khalili — vista de instalación, 2026" },
+  { src: "images/curatorial/lightfades4.jpg", alt: "Vista de instalación", caption: "Mariia Lutsak — vista de instalación, 2026" },
+  { src: "images/curatorial/lightfades5.jpg", alt: "Vista de instalación", caption: "robin c wolf — vista de instalación, 2026" }
+],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
           {
@@ -269,6 +303,11 @@ const SITE = {
               "En el punto de encuentro entre memoria y arraigo surge la red, elemento central de la exposición. Presente tanto como metáfora como objeto material, habla de los vínculos que nos sostienen: conexiones emocionales, tejidos sociales, procesos de transmisión y formas de cuidado mutuo. Al mismo tiempo, evoca los paisajes marítimos y las tradiciones pesqueras que forman parte de la memoria heredada de la artista y de su ciudad natal, Santander. La red se convierte así en una imagen de las estructuras visibles e invisibles que nos conectan entre nosotros, con los lugares que habitamos y con las historias que nos preceden.",
               "Allí donde se enredó la memoria busca hacer visibles los hilos que conectan la experiencia individual con la memoria colectiva, invitando a reflexionar sobre las formas en que los recuerdos se transmiten, se transforman y siguen habitándonos."
             ],
+             images: [
+  { src: "images/curatorial/memorytangled1.jpg", alt: "Vista de instalación", caption: "Raquel González Obregón — vista de instalación, 2026" },
+  { src: "images/curatorial/memorytangled2.jpg", alt: "Vista de instalación, detalle", caption: "Raquel González Obregón — detalle, 2026" },
+  { src: "images/curatorial/memorytangled3.jpg", alt: "Vista de instalación, general", caption: "Raquel González Obregón — vista general, 2026" }
+],
             artists: ["Raquel González Obregón"]
           }
         ]
@@ -364,17 +403,25 @@ const SITE = {
         intro: "Una selecció d'exposicions i projectes curatorials, des de la idea fins al muntatge.",
         backToList: "Tornar a Projectes Curatorials",
         projects: [
-          {
-            slug: "the-space-in-between",
-            title: "L'espai intermedi",
-            venue: "Backhaus Projects, Berlín",
-            date: "28 de maig de 2025",
-            summary: "Una exposició sobre llindars, presència i relacions espacials.",
-            body: [
-              "«L'espai intermedi» va reunir un grup d'artistes que treballen l'escultura, la instal·lació i la fotografia per examinar el llindar —la porta, el passadís, la pausa— com a condició física i també com a estat psicològic.",
-              "L'exposició es va plantejar perquè el visitant travessés una seqüència de sales de transició, tractant la mateixa circulació com a material curatorial."
-            ]
-          },
+{
+  slug: "the-space-in-between",
+  title: "L'espai intermedi",
+  venue: "Backhaus Projects, Berlín",
+  date: "28 de maig de 2025",
+  summary: "Una exposició sobre llindars, presència i relacions espacials.",
+  body: [
+    "«L'espai intermedi» va reunir un grup d'artistes que treballen l'escultura, la instal·lació i la fotografia per examinar el llindar —la porta, el passadís, la pausa— com a condició física i també com a estat psicològic.",
+    "L'exposició es va plantejar perquè el visitant travessés una seqüència de sales de transició, tractant la mateixa circulació com a material curatorial."
+  ],
+  images: [
+    { src: "images/curatorial/spaceinbetween1.jpg", alt: "Vista de la instal·lació", caption: "Johanna Dreyer — vista de la instal·lació, 2025" },
+    { src: "images/curatorial/spaceinbetween2.jpg", alt: "Vista de la instal·lació, detall", caption: "Pascual Candel — Skinphone, 2025" },
+    { src: "images/curatorial/spaceinbetween3.jpg", alt: "Vista de la instal·lació, general", caption: "Pascual Candel — Skinscreen, 2025" },
+    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de la instal·lació", caption: "Johanna Grotzke — vista de la instal·lació, 2025" },
+    { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de la instal·lació", caption: "Sadie Weis — vista de la instal·lació, 2025" }
+  ],
+  artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
+},
           {
             slug: "the-stretch-of-becoming",
             title: "El tram de l'esdevenir",
@@ -386,6 +433,13 @@ const SITE = {
               "Els artistes abracen la transformació en les seves dimensions personal, política i espiritual. Reflecteixen experiències viscudes de dissidència sexual, feminitat, migració, racisme i neurodivergència, revelant el cos, la memòria i la identitat com a espais elàstics on conviuen la fragilitat, la resistència i la capacitat de recuperació.",
               "Aquí, estirar-se és alhora ruptura i reparació, comoditat i incomoditat, supervivència i imaginació. L'exposició amplifica la naturalesa elàstica de l'existència humana, on l'expansió comporta tant terror com meravella, i on l'esdevenir no és mai complet. És un testimoni de resistència, que ens recorda que la transformació no és un acte únic, sinó un estat continu de l'ésser."
             ],
+             images: [
+  { src: "stretch1.jpg", alt: "Vista de la instal·lació", caption: "Michalina Marta Cap — vista de la instal·lació, 2025" },
+  { src: "stretch2.heic", alt: "Vista de la instal·lació, detall", caption: "Pascual Candel — vista de la instal·lació, 2025" },
+  { src: "stretch3.jpg", alt: "Vista de la instal·lació, general", caption: "Carina Chang — vista de la instal·lació, 2025" },
+  { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de la instal·lació", caption: "Onyx Chladilova — vista de la instal·lació, 2025" },
+  { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de la instal·lació", caption: "Eva Fomitski — vista de la instal·lació, 2025" }
+],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
@@ -400,6 +454,13 @@ const SITE = {
               "Aquesta interrupció sobtada provocada per la pèrdua de llum pot generar angoixa, però també calma, impulsant el cervell a generar nous moviments, noves formes de creació. En aquesta exposició ens proposem investigar aquests moviments des del vessant psicològic, físic i artístic. Com afecta aquest canvi la nostra percepció, la nostra memòria i el nostre sentit del present? Què transforma la llum, i què crea?",
               "La llum activa memòries latents i transforma la manera com observem allò que ens envolta. A través de l'exploració artística d'aquest concepte —sovint mitjançant reflexos, ombres o subtils variacions de lluminositat— Mentre la llum s'apaga suggereix que mirar és també recordar. I que cada canvi de llum reescriu allò que crèiem haver vist ja."
             ],
+             images: [
+  { src: "images/curatorial/lightfades1.jpg", alt: "Vista de la instal·lació", caption: "Serafima Bresles — vista de la instal·lació, 2026" },
+  { src: "images/curatorial/lightfades2.jpg", alt: "Vista de la instal·lació", caption: "Théo Guézennec — vista de la instal·lació, 2026" },
+  { src: "images/curatorial/lightfades3.jpg", alt: "Vista de la instal·lació", caption: "Jamal Khalili — vista de la instal·lació, 2026" },
+  { src: "images/curatorial/lightfades4.jpg", alt: "Vista de la instal·lació", caption: "Mariia Lutsak — vista de la instal·lació, 2026" },
+  { src: "images/curatorial/lightfades5.jpg", alt: "Vista de la instal·lació", caption: "robin c wolf — vista de la instal·lació, 2026" }
+],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
           {
@@ -415,6 +476,11 @@ const SITE = {
               "En el punt de trobada entre memòria i arrelament sorgeix la xarxa, element central de l'exposició. Present tant com a metàfora com a objecte material, parla dels vincles que ens sostenen: connexions emocionals, teixits socials, processos de transmissió i formes de cura mútua. Alhora, evoca els paisatges marítims i les tradicions pesqueres que formen part de la memòria heretada de l'artista i de la seva ciutat natal, Santander. La xarxa esdevé així una imatge de les estructures visibles i invisibles que ens connecten entre nosaltres, amb els llocs que habitem i amb les històries que ens precedeixen.",
               "Allà on es va enredar la memòria busca fer visibles els fils que connecten l'experiència individual amb la memòria col·lectiva, tot convidant a reflexionar sobre les maneres en què els records es transmeten, es transformen i continuen habitant-nos."
             ],
+             images: [
+  { src: "images/curatorial/memorytangled1.jpg", alt: "Vista de la instal·lació", caption: "Raquel González Obregón — vista de la instal·lació, 2026" },
+  { src: "images/curatorial/memorytangled2.jpg", alt: "Vista de la instal·lació, detall", caption: "Raquel González Obregón — detall, 2026" },
+  { src: "images/curatorial/memorytangled3.jpg", alt: "Vista de la instal·lació, general", caption: "Raquel González Obregón — vista general, 2026" }
+],
             artists: ["Raquel González Obregón"]
           }
         ]
