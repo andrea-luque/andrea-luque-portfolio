@@ -162,7 +162,7 @@
       <div class="project-detail-body">${p.body.map((par) => `<p>${par}</p>`).join("")}</div>
       ${artists}
     </section>`;
-}
+},
 
     practice(t) {
       const groups = t.practice.groups.map((g) => `
