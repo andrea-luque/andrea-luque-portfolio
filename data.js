@@ -70,7 +70,9 @@ const SITE = {
             images: [
               { src: "space-in-between-1.jpg.jpeg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
               { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
-              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel - Skinscreen, 2025" }
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel - Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke - xxx, 2025" },
+              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Sadie Weis - xxxx, 2025" },      
             ],
             artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
           },
