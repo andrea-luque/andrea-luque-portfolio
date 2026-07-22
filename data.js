@@ -74,8 +74,9 @@ const SITE = {
             images: [
               { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
               { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025" },
-              { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
-              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — installation view, 2025" },
+              { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
+              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
+              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
             ],
             artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
           },
@@ -92,9 +93,9 @@ const SITE = {
               "Stretching here is both rupture and repair, comfort and discomfort, survival and imagination. The exhibition amplifies the elastic nature of human existence — where expansion carries both terror and wonder, and where becoming is never complete. It is a testament to endurance, reminding us that transformation is not a single act but an ongoing state of being."
             ],
              images: [
-              { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Michalina Marta Cap — installation view, 2025" },
-              { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Pascual Candel — installation view, 2025" },
-              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Carina Chang — installation view, 2025" },
+              { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Eva Fomitski - SPILLNYY COD, 2024" },
+              { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Onyx Chladilová - Utopia of Hopes, 2025" },
+              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - " },
             ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
@@ -112,9 +113,9 @@ const SITE = {
               "Light activates latent memories and reshapes the way we observe what surrounds us. Through the artistic exploration of this concept — often through the use of reflections, shadows, or subtle shifts of brightness — As the Light Fades suggests that to look is also to remember. And that every change in light rewrites what we think we have already seen."
             ],
              images: [
-  { src: "images/curatorial/light1.PNG", alt: "Installation view", caption: "Serafima Bresles — installation view, 2026" },
-  { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "Théo Guézennec — installation view, 2026" },
-  { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Jamal Khalili — installation view, 2026" },
+  { src: "images/curatorial/light1.PNG", alt: "Installation view", caption: "Théo Guézennec - Danzare per Fantasmata, 2024" },
+  { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "p0brediabla - On The Floor - Some Music, 2026" },
+  { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Mariia Lutsak - Soft Longing, 2025" },
   { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
   { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
 ],
@@ -249,11 +250,12 @@ const SITE = {
     "La exposición se planteó para que el visitante atravesara una secuencia de salas de transición, tratando la propia circulación como material curatorial."
   ],
   images: [
-    { src: "images/curatorial/spaceinbetween2.jpg", alt: "Vista de instalación, detalle", caption: "Pascual Candel — Skinphone, 2025" },
-    { src: "images/curatorial/spaceinbetween3.jpg", alt: "Vista de instalación, general", caption: "Pascual Candel — Skinscreen, 2025" },
-    { src: "images/curatorial/spaceinbetween4.jpg", alt: "Vista de instalación", caption: "Johanna Dreyer — vista de instalación, 2025" },
-    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de instalación", caption: "Johanna Grotzke — vista de instalación, 2025" }
-  ],
+              { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
+              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
+              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+            ],
   artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
 },
           {
@@ -269,10 +271,10 @@ const SITE = {
               "Aquí, estirarse es a la vez ruptura y reparación, comodidad e incomodidad, supervivencia e imaginación. La exposición amplifica la naturaleza elástica de la existencia humana, donde la expansión conlleva tanto terror como asombro, y donde el devenir nunca se completa. Es un testimonio de resistencia, que nos recuerda que la transformación no es un acto único, sino un estado continuo del ser."
             ],
              images: [
-  { src: "images/curatorial/stretch1.jpg", alt: "Vista de instalación", caption: "Michalina Marta Cap — vista de instalación, 2025" },
-  { src: "images/curatorial/stretch2.heic", alt: "Vista de instalación, detalle", caption: "Pascual Candel — vista de instalación, 2025" },
-  { src: "images/curatorial/stretch3.jpg", alt: "Vista de instalación, general", caption: "Carina Chang — vista de instalación, 2025" }
-],
+              { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Eva Fomitski - SPILLNYY COD, 2024" },
+              { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Onyx Chladilová - Utopia of Hopes, 2025" },
+              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - " },
+            ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
@@ -289,11 +291,11 @@ const SITE = {
               "La luz activa memorias latentes y transforma la manera en que observamos lo que nos rodea. A través de la exploración artística de este concepto —a menudo mediante reflejos, sombras o sutiles variaciones de luminosidad— Mientras la luz se apaga sugiere que mirar es también recordar. Y que cada cambio de luz reescribe aquello que creíamos haber visto ya."
             ],
              images: [
-  { src: "images/curatorial/lightfades1.jpg", alt: "Vista de instalación", caption: "Serafima Bresles — vista de instalación, 2026" },
-  { src: "images/curatorial/lightfades2.jpg", alt: "Vista de instalación", caption: "Théo Guézennec — vista de instalación, 2026" },
-  { src: "images/curatorial/lightfades3.jpg", alt: "Vista de instalación", caption: "Jamal Khalili — vista de instalación, 2026" },
-  { src: "images/curatorial/lightfades4.jpg", alt: "Vista de instalación", caption: "Mariia Lutsak — vista de instalación, 2026" },
-  { src: "images/curatorial/lightfades5.jpg", alt: "Vista de instalación", caption: "robin c wolf — vista de instalación, 2026" }
+  { src: "images/curatorial/light1.PNG", alt: "Installation view", caption: "Théo Guézennec - Danzare per Fantasmata, 2024" },
+  { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "p0brediabla - On The Floor - Some Music, 2026" },
+  { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Mariia Lutsak - Soft Longing, 2025" },
+  { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
+  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
@@ -426,11 +428,12 @@ const SITE = {
     "L'exposició es va plantejar perquè el visitant travessés una seqüència de sales de transició, tractant la mateixa circulació com a material curatorial."
   ],
   images: [
-    { src: "images/curatorial/spaceinbetween2.jpg", alt: "Vista de la instal·lació, detall", caption: "Pascual Candel — Skinphone, 2025" },
-    { src: "images/curatorial/spaceinbetween3.jpg", alt: "Vista de la instal·lació, general", caption: "Pascual Candel — Skinscreen, 2025" },
-    { src: "images/curatorial/spaceinbetween4.jpg", alt: "Vista de la instal·lació", caption: "Johanna Dreyer — vista de la instal·lació, 2025" },
-    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de la instal·lació", caption: "Johanna Grotzke — vista de la instal·lació, 2025" }
-  ],
+              { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
+              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
+              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+            ],
   artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
 },
           {
@@ -446,10 +449,10 @@ const SITE = {
               "Aquí, estirar-se és alhora ruptura i reparació, comoditat i incomoditat, supervivència i imaginació. L'exposició amplifica la naturalesa elàstica de l'existència humana, on l'expansió comporta tant terror com meravella, i on l'esdevenir no és mai complet. És un testimoni de resistència, que ens recorda que la transformació no és un acte únic, sinó un estat continu de l'ésser."
             ],
              images: [
-  { src: "images/curatorial/stretch1.jpg", alt: "Vista de la instal·lació", caption: "Michalina Marta Cap — vista de la instal·lació, 2025" },
-  { src: "images/curatorial/stretch2.heic", alt: "Vista de la instal·lació, detall", caption: "Pascual Candel — vista de la instal·lació, 2025" },
-  { src: "images/curatorial/stretch3.jpg", alt: "Vista de la instal·lació, general", caption: "Carina Chang — vista de la instal·lació, 2025" }
-],
+              { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Eva Fomitski - SPILLNYY COD, 2024" },
+              { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Onyx Chladilová - Utopia of Hopes, 2025" },
+              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - " },
+            ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
           {
@@ -466,11 +469,11 @@ const SITE = {
               "La llum activa memòries latents i transforma la manera com observem allò que ens envolta. A través de l'exploració artística d'aquest concepte —sovint mitjançant reflexos, ombres o subtils variacions de lluminositat— Mentre la llum s'apaga suggereix que mirar és també recordar. I que cada canvi de llum reescriu allò que crèiem haver vist ja."
             ],
              images: [
-  { src: "images/curatorial/lightfades1.jpg", alt: "Vista de la instal·lació", caption: "Serafima Bresles — vista de la instal·lació, 2026" },
-  { src: "images/curatorial/lightfades2.jpg", alt: "Vista de la instal·lació", caption: "Théo Guézennec — vista de la instal·lació, 2026" },
-  { src: "images/curatorial/lightfades3.jpg", alt: "Vista de la instal·lació", caption: "Jamal Khalili — vista de la instal·lació, 2026" },
-  { src: "images/curatorial/lightfades4.jpg", alt: "Vista de la instal·lació", caption: "Mariia Lutsak — vista de la instal·lació, 2026" },
-  { src: "images/curatorial/lightfades5.jpg", alt: "Vista de la instal·lació", caption: "robin c wolf — vista de la instal·lació, 2026" }
+  { src: "images/curatorial/light1.PNG", alt: "Installation view", caption: "Théo Guézennec - Danzare per Fantasmata, 2024" },
+  { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "p0brediabla - On The Floor - Some Music, 2026" },
+  { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Mariia Lutsak - Soft Longing, 2025" },
+  { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
+  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
