@@ -96,9 +96,9 @@
         <section class="view home-view">
           <p class="home-tagline">${t.home.tagline}</p>
           <div class="home-photos">
-            <img class="home-photo" src="images/curatorial/fotohome1.JPG" alt="">
-            <img class="home-photo" src="images/curatorial/fotohome2.JPG" alt="">
-            <img class="home-photo" src="images/curatorial/fotohome3.jpg" alt="">
+            <img class="home-photo home-photo-1" src="images/curatorial/fotohome1.JPG" alt="">
+            <img class="home-photo home-photo-2" src="images/curatorial/fotohome2.JPG" alt="">
+            <img class="home-photo home-photo-3" src="images/curatorial/fotohome3.jpg" alt="">
           </div>
         </section>`;
     },
@@ -146,6 +146,11 @@
       </figure>`
     : "";
 
+  // curators: single curator -> "Curated by:", multiple -> "Co-curated by:"
+  const curators = p.curators && p.curators.length ? p.curators : [SITE.name];
+  const curatedLabel = curators.length > 1 ? t.curatorial.coCuratedByLabel : t.curatorial.curatedByLabel;
+  const curatedText = `${curatedLabel} ${curators.join(" & ")}`;
+
   const artists = p.artists && p.artists.length
     ? `<p class="project-artists-inline"><span class="project-artists-label">${t.curatorial.artistsLabel}</span>${p.artists.join(", ")}</p>`
     : "";
@@ -156,7 +161,7 @@
       <div class="project-detail-header">
         <h1 class="project-detail-title">${p.title}</h1>
         <div class="project-detail-meta"><span>${p.date}</span><span>${p.venue}</span></div>
-        <p class="project-curated-by">${t.curatorial.curatedByLabel} ${SITE.name}</p>
+        <p class="project-curated-by">${curatedText}</p>
       </div>
       <div class="project-detail-image">${imageBlock}</div>
       <div class="project-detail-body">${p.body.map((par) => `<p>${par}</p>`).join("")}</div>
