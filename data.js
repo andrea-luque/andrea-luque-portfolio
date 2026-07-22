@@ -54,6 +54,9 @@ const SITE = {
         heading: "Curatorial Work",
         intro: "A selection of exhibitions and curatorial projects, from concept to installation.",
         backToList: "Back to Curatorial Work",
+        curatedByLabel: "Curated by:",
+        coCuratedByLabel: "Co-curated by:",
+        artistsLabel: "Artists Featured:",
         projects: [
           {
             slug: "the-space-in-between",
@@ -61,6 +64,7 @@ const SITE = {
             venue: "Backhaus Projects, Berlin",
             date: "28 May 2025",
             summary: "An exhibition about thresholds, presence and spatial relations.",
+            curators: ["Andrea Luque Martín"],
             body: [
               "The Space In Between is a group exhibition that encourages you to pause and notice the small, delicate moments of change that shape our lives. In a world that rarely slows down, these in-between spaces, such as those between the digital and the physical, presence and absence, or noise and silence, can feel uncertain but also meaningful.",
               "The works in this show explore what it means to live with changing identities and ongoing transformation. They consider how our experiences are shaped by technology, movement, and our relationships, often mixing what is real with what is imagined.",
@@ -68,11 +72,10 @@ const SITE = {
               "The Space In Between isn’t just about uncertainty, it’s about possibility. This exhibition offers a gentle space for reflection, for feeling, and maybe even for rediscovering yourself in the moments where everything slows down and new meanings can take shape."
             ],
             images: [
-              { src: "stretch1.jpg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
-              { src: "stretch2.heic", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
-              { src: "stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - Skinscreen, 2025" },
-              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke - xxx, 2025" },
-              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Sadie Weis - xxxx, 2025" },      
+              { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
+              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — installation view, 2025" },
             ],
             artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
           },
@@ -82,17 +85,16 @@ const SITE = {
             venue: "Pandora Art Gallery, Berlin",
             date: "7–9 November 2025",
             summary: "A curatorial reading of transformation, body and process.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "The Stretch of Becoming explores the continual need and urge to stretch as a means of expansion, transformation, connection, and the ongoing construction of our lives. Stretching is never neutral — it holds both fear and fascination, both expansion and reduction. The inevitable ruptures and changes that emerge through this process define who we become, shaping identity, memory, and belonging in perpetual cycles of construction and reconstruction.",
               "The artists embrace transformation across personal, political, and spiritual dimensions. They reflect lived experiences of queerness, femininity, migration, racism, and neurodivergence — revealing the body, memory, and identity as elastic sites where fragility, endurance, and resilience coexist.",
               "Stretching here is both rupture and repair, comfort and discomfort, survival and imagination. The exhibition amplifies the elastic nature of human existence — where expansion carries both terror and wonder, and where becoming is never complete. It is a testament to endurance, reminding us that transformation is not a single act but an ongoing state of being."
             ],
              images: [
-              { src: "space-in-between-1.jpg.jpeg", alt: "Installation view", caption: "Johanna Dreyer — installation view, 2025" },
-              { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
-              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel - Skinscreen, 2025" },
-              { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke - xxx, 2025" },
-              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Sadie Weis - xxxx, 2025" },      
+              { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Michalina Marta Cap — installation view, 2025" },
+              { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Pascual Candel — installation view, 2025" },
+              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Carina Chang — installation view, 2025" },
             ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
@@ -102,6 +104,7 @@ const SITE = {
             venue: "Rossmann Culterim, Berlin",
             date: "27–29 March 2026",
             summary: "A proposal around time, light and disappearance.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "What happens when light disappears? What happens when the cables are cut, and darkness encroaches? The interruption of light can cause contrasting emotional and physical reactions. Sometimes distress and fear of the things unseen, and other times serenity and calmness.",
               "In science, the Ganzfeld Effect answers this as the brain’s reaction to sensory deprivation: when visual input collapses, the mind begins to generate its own images, movements, and internal landscapes. The absence of light does not create emptiness, rather it activates a different mode of seeing.",
@@ -123,6 +126,7 @@ const SITE = {
             venue: "Studio4000, Berlin",
             date: "26–28 June 2026",
             summary: "An exhibition inquiry into memory, trace and affect.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "There, Where Memory Became Entangled explores the intersection of two concepts that are central to the artistic practice of Raquel González Obregón: rootedness and memory.",
               "To understand rootedness is to understand how individuals remain tethered to a place, a history, and a people, even as both shift and evolve over time. Drawing on thinkers such as Simone Weil, rootedness is understood as a fundamental human need that connects us to a community through shared relationships, stories, and knowledge. It is shaped by what we inherit and what we continue to practice: everyday rituals, celebrations, and traditions passed down from one generation to the next. It is within these spaces that memory remains alive and finds new ways to manifest itself.",
@@ -229,6 +233,9 @@ const SITE = {
         heading: "Proyectos Curatoriales",
         intro: "Una selección de exposiciones y proyectos curatoriales, desde la idea hasta el montaje.",
         backToList: "Volver a Proyectos Curatoriales",
+        curatedByLabel: "Comisariado por:",
+        coCuratedByLabel: "Co-comisariado por:",
+        artistsLabel: "Artistas participantes:",
         projects: [
           {
   slug: "the-space-in-between",
@@ -236,16 +243,16 @@ const SITE = {
   venue: "Backhaus Projects, Berlín",
   date: "28 de mayo de 2025",
   summary: "Una exposición sobre umbrales, presencia y relaciones espaciales.",
+  curators: ["Andrea Luque Martín"],
   body: [
     "«El espacio intermedio» reunió a un grupo de artistas que trabajan la escultura, la instalación y la fotografía para examinar el umbral —la puerta, el pasillo, la pausa— como condición física y también como estado psicológico.",
     "La exposición se planteó para que el visitante atravesara una secuencia de salas de transición, tratando la propia circulación como material curatorial."
   ],
   images: [
-    { src: "images/curatorial/spaceinbetween1.jpg", alt: "Vista de instalación", caption: "Johanna Dreyer — vista de instalación, 2025" },
     { src: "images/curatorial/spaceinbetween2.jpg", alt: "Vista de instalación, detalle", caption: "Pascual Candel — Skinphone, 2025" },
     { src: "images/curatorial/spaceinbetween3.jpg", alt: "Vista de instalación, general", caption: "Pascual Candel — Skinscreen, 2025" },
-    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de instalación", caption: "Johanna Grotzke — vista de instalación, 2025" },
-    { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de instalación", caption: "Sadie Weis — vista de instalación, 2025" }
+    { src: "images/curatorial/spaceinbetween4.jpg", alt: "Vista de instalación", caption: "Johanna Dreyer — vista de instalación, 2025" },
+    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de instalación", caption: "Johanna Grotzke — vista de instalación, 2025" }
   ],
   artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
 },
@@ -255,17 +262,16 @@ const SITE = {
             venue: "Pandora Art Gallery, Berlín",
             date: "7–9 de noviembre de 2025",
             summary: "Una lectura curatorial de la transformación, el cuerpo y el proceso.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "El tramo del devenir explora la necesidad y el impulso constantes de estirarse como forma de expansión, transformación, conexión y construcción continua de nuestras vidas. Estirarse nunca es neutral: contiene a la vez miedo y fascinación, expansión y reducción. Las rupturas y los cambios inevitables que surgen de este proceso definen en quién nos convertimos, dando forma a la identidad, la memoria y el arraigo en ciclos perpetuos de construcción y reconstrucción.",
               "Los artistas abrazan la transformación en sus dimensiones personal, política y espiritual. Reflejan experiencias vividas de disidencia sexual, feminidad, migración, racismo y neurodivergencia, revelando el cuerpo, la memoria y la identidad como espacios elásticos donde conviven la fragilidad, la resistencia y la capacidad de recuperación.",
               "Aquí, estirarse es a la vez ruptura y reparación, comodidad e incomodidad, supervivencia e imaginación. La exposición amplifica la naturaleza elástica de la existencia humana, donde la expansión conlleva tanto terror como asombro, y donde el devenir nunca se completa. Es un testimonio de resistencia, que nos recuerda que la transformación no es un acto único, sino un estado continuo del ser."
             ],
              images: [
-  { src: "stretch1.jpg", alt: "Vista de instalación", caption: "Michalina Marta Cap — vista de instalación, 2025" },
-  { src: "stretch2.heic", alt: "Vista de instalación, detalle", caption: "Pascual Candel — vista de instalación, 2025" },
-  { src: "stretch3.jpg", alt: "Vista de instalación, general", caption: "Carina Chang — vista de instalación, 2025" },
-  { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de instalación", caption: "Onyx Chladilova — vista de instalación, 2025" },
-  { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de instalación", caption: "Eva Fomitski — vista de instalación, 2025" }
+  { src: "images/curatorial/stretch1.jpg", alt: "Vista de instalación", caption: "Michalina Marta Cap — vista de instalación, 2025" },
+  { src: "images/curatorial/stretch2.heic", alt: "Vista de instalación, detalle", caption: "Pascual Candel — vista de instalación, 2025" },
+  { src: "images/curatorial/stretch3.jpg", alt: "Vista de instalación, general", caption: "Carina Chang — vista de instalación, 2025" }
 ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
@@ -275,6 +281,7 @@ const SITE = {
             venue: "Rossmann Culterim, Berlín",
             date: "27–29 de marzo de 2026",
             summary: "Una propuesta sobre el tiempo, la luz y la desaparición.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "¿Qué ocurre cuando la luz desaparece? ¿Qué ocurre cuando se cortan los cables y la oscuridad se abre paso? La interrupción de la luz puede provocar reacciones emocionales y físicas contrapuestas. A veces angustia y miedo a lo que no se ve, y otras veces serenidad y calma.",
               "En el ámbito científico, el efecto Ganzfeld explica esto como la reacción del cerebro a la privación sensorial: cuando el estímulo visual desaparece, la mente empieza a generar sus propias imágenes, movimientos y paisajes internos. La ausencia de luz no crea un vacío, sino que activa un modo distinto de ver.",
@@ -296,6 +303,7 @@ const SITE = {
             venue: "Studio4000, Berlín",
             date: "26–28 de junio de 2026",
             summary: "Una exposición que indaga en la memoria, la huella y el afecto.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "Allí donde se enredó la memoria explora la intersección de dos conceptos centrales en la práctica artística de Raquel González Obregón: el arraigo y la memoria.",
               "Comprender el arraigo es comprender cómo las personas permanecen vinculadas a un lugar, una historia y una comunidad, incluso cuando ambos cambian y evolucionan con el tiempo. Inspirándose en pensadoras como Simone Weil, el arraigo se entiende como una necesidad humana fundamental que nos conecta con una comunidad a través de relaciones, historias y saberes compartidos. Se conforma a partir de lo que heredamos y de lo que seguimos practicando: rituales cotidianos, celebraciones y tradiciones transmitidas de generación en generación. Es en estos espacios donde la memoria permanece viva y encuentra nuevas formas de manifestarse.",
@@ -402,6 +410,9 @@ const SITE = {
         heading: "Projectes Curatorials",
         intro: "Una selecció d'exposicions i projectes curatorials, des de la idea fins al muntatge.",
         backToList: "Tornar a Projectes Curatorials",
+        curatedByLabel: "Comissariat per:",
+        coCuratedByLabel: "Co-comissariat per:",
+        artistsLabel: "Artistes participants:",
         projects: [
 {
   slug: "the-space-in-between",
@@ -409,16 +420,16 @@ const SITE = {
   venue: "Backhaus Projects, Berlín",
   date: "28 de maig de 2025",
   summary: "Una exposició sobre llindars, presència i relacions espacials.",
+  curators: ["Andrea Luque Martín"],
   body: [
     "«L'espai intermedi» va reunir un grup d'artistes que treballen l'escultura, la instal·lació i la fotografia per examinar el llindar —la porta, el passadís, la pausa— com a condició física i també com a estat psicològic.",
     "L'exposició es va plantejar perquè el visitant travessés una seqüència de sales de transició, tractant la mateixa circulació com a material curatorial."
   ],
   images: [
-    { src: "images/curatorial/spaceinbetween1.jpg", alt: "Vista de la instal·lació", caption: "Johanna Dreyer — vista de la instal·lació, 2025" },
     { src: "images/curatorial/spaceinbetween2.jpg", alt: "Vista de la instal·lació, detall", caption: "Pascual Candel — Skinphone, 2025" },
     { src: "images/curatorial/spaceinbetween3.jpg", alt: "Vista de la instal·lació, general", caption: "Pascual Candel — Skinscreen, 2025" },
-    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de la instal·lació", caption: "Johanna Grotzke — vista de la instal·lació, 2025" },
-    { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de la instal·lació", caption: "Sadie Weis — vista de la instal·lació, 2025" }
+    { src: "images/curatorial/spaceinbetween4.jpg", alt: "Vista de la instal·lació", caption: "Johanna Dreyer — vista de la instal·lació, 2025" },
+    { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de la instal·lació", caption: "Johanna Grotzke — vista de la instal·lació, 2025" }
   ],
   artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
 },
@@ -428,17 +439,16 @@ const SITE = {
             venue: "Pandora Art Gallery, Berlín",
             date: "7–9 de novembre de 2025",
             summary: "Una lectura curatorial de la transformació, el cos i el procés.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "El tram de l'esdevenir explora la necessitat i l'impuls constants d'estirar-se com a forma d'expansió, transformació, connexió i construcció contínua de les nostres vides. Estirar-se mai no és neutral: conté alhora por i fascinació, expansió i reducció. Les ruptures i els canvis inevitables que sorgeixen d'aquest procés defineixen en qui ens convertim, donant forma a la identitat, la memòria i l'arrelament en cicles perpetus de construcció i reconstrucció.",
               "Els artistes abracen la transformació en les seves dimensions personal, política i espiritual. Reflecteixen experiències viscudes de dissidència sexual, feminitat, migració, racisme i neurodivergència, revelant el cos, la memòria i la identitat com a espais elàstics on conviuen la fragilitat, la resistència i la capacitat de recuperació.",
               "Aquí, estirar-se és alhora ruptura i reparació, comoditat i incomoditat, supervivència i imaginació. L'exposició amplifica la naturalesa elàstica de l'existència humana, on l'expansió comporta tant terror com meravella, i on l'esdevenir no és mai complet. És un testimoni de resistència, que ens recorda que la transformació no és un acte únic, sinó un estat continu de l'ésser."
             ],
              images: [
-  { src: "stretch1.jpg", alt: "Vista de la instal·lació", caption: "Michalina Marta Cap — vista de la instal·lació, 2025" },
-  { src: "stretch2.heic", alt: "Vista de la instal·lació, detall", caption: "Pascual Candel — vista de la instal·lació, 2025" },
-  { src: "stretch3.jpg", alt: "Vista de la instal·lació, general", caption: "Carina Chang — vista de la instal·lació, 2025" },
-  { src: "images/curatorial/spaceinbetween5.jpg", alt: "Vista de la instal·lació", caption: "Onyx Chladilova — vista de la instal·lació, 2025" },
-  { src: "images/curatorial/spaceinbetween6.jpg", alt: "Vista de la instal·lació", caption: "Eva Fomitski — vista de la instal·lació, 2025" }
+  { src: "images/curatorial/stretch1.jpg", alt: "Vista de la instal·lació", caption: "Michalina Marta Cap — vista de la instal·lació, 2025" },
+  { src: "images/curatorial/stretch2.heic", alt: "Vista de la instal·lació, detall", caption: "Pascual Candel — vista de la instal·lació, 2025" },
+  { src: "images/curatorial/stretch3.jpg", alt: "Vista de la instal·lació, general", caption: "Carina Chang — vista de la instal·lació, 2025" }
 ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
@@ -448,6 +458,7 @@ const SITE = {
             venue: "Rossmann Culterim, Berlín",
             date: "27–29 de març de 2026",
             summary: "Una proposta sobre el temps, la llum i la desaparició.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "Què passa quan la llum desapareix? Què passa quan es tallen els cables i la foscor s'obre pas? La interrupció de la llum pot provocar reaccions emocionals i físiques contraposades. De vegades angoixa i por d'allò que no es veu, i d'altres serenitat i calma.",
               "En l'àmbit científic, l'efecte Ganzfeld explica això com la reacció del cervell a la privació sensorial: quan l'estímul visual desapareix, la ment comença a generar les seves pròpies imatges, moviments i paisatges interns. L'absència de llum no crea un buit, sinó que activa una manera diferent de veure.",
@@ -469,6 +480,7 @@ const SITE = {
             venue: "Studio4000, Berlín",
             date: "26–28 de juny de 2026",
             summary: "Una exposició que indaga en la memòria, l'empremta i l'afecte.",
+            curators: ["Andrea Luque Martín", "Maddy Dreiband"],
             body: [
               "Allà on es va enredar la memòria explora la intersecció de dos conceptes centrals en la pràctica artística de Raquel González Obregón: l'arrelament i la memòria.",
               "Comprendre l'arrelament és comprendre com les persones romanen vinculades a un lloc, una història i una comunitat, fins i tot quan tots dos canvien i evolucionen amb el temps. Inspirant-se en pensadores com Simone Weil, l'arrelament s'entén com una necessitat humana fonamental que ens connecta amb una comunitat a través de relacions, històries i sabers compartits. Es conforma a partir del que heretem i del que continuem practicant: rituals quotidians, celebracions i tradicions transmeses de generació en generació. És en aquests espais on la memòria roman viva i troba noves maneres de manifestar-se.",
