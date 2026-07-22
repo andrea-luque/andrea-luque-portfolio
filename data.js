@@ -112,9 +112,9 @@ const SITE = {
               "Light activates latent memories and reshapes the way we observe what surrounds us. Through the artistic exploration of this concept — often through the use of reflections, shadows, or subtle shifts of brightness — As the Light Fades suggests that to look is also to remember. And that every change in light rewrites what we think we have already seen."
             ],
              images: [
-  { src: "images/curatorial/lightfades1.jpg", alt: "Installation view", caption: "Serafima Bresles — installation view, 2026" },
-  { src: "images/curatorial/lightfades2.jpg", alt: "Installation view", caption: "Théo Guézennec — installation view, 2026" },
-  { src: "images/curatorial/lightfades3.jpg", alt: "Installation view", caption: "Jamal Khalili — installation view, 2026" },
+  { src: "images/curatorial/light1.PNG", alt: "Installation view", caption: "Serafima Bresles — installation view, 2026" },
+  { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "Théo Guézennec — installation view, 2026" },
+  { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Jamal Khalili — installation view, 2026" },
   { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
   { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
 ],
