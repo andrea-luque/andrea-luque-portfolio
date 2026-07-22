@@ -249,23 +249,36 @@ p.muted{ color: var(--muted); }
   background: var(--ink);
 }
 
+/* Home photos: photo 1 and 2 stacked (uncropped, whole image),
+   photo 3 (vertical) sits to the right spanning both rows. */
 .home-photos{
-  display: flex;
-  gap: 18px;
+  display: grid;
+  grid-template-columns: 200px 190px;
+  grid-template-rows: auto auto;
+  gap: 14px;
   margin-top: 10px;
+  align-items: start;
 }
 .home-photo{
-  width: 160px;
-  height: 200px;
-  object-fit: cover;
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
   border: 1px solid var(--rule);
+  background: var(--bg);
   opacity: 0;
   transform: scale(0.85) translateY(14px);
   animation: pop-in 0.45s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
 }
-.home-photo:nth-child(1){ animation-delay: 0.3s; }
-.home-photo:nth-child(2){ animation-delay: 0.8s; }
-.home-photo:nth-child(3){ animation-delay: 1.3s; }
+.home-photo-1{ grid-column: 1; grid-row: 1; animation-delay: 0.3s; }
+.home-photo-2{ grid-column: 1; grid-row: 2; animation-delay: 0.8s; }
+.home-photo-3{
+  grid-column: 2;
+  grid-row: 1 / span 2;
+  height: 100%;
+  align-self: stretch;
+  animation-delay: 1.3s;
+}
 @keyframes pop-in{
   from{ opacity: 0; transform: scale(0.85) translateY(14px); }
   to{ opacity: 1; transform: scale(1) translateY(0); }
@@ -325,17 +338,10 @@ p.muted{ color: var(--muted); }
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 22px;
+  margin-bottom: 10px;
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
-}
-.project-detail-title{
-  font-size: 34px;
-  font-style: italic;
-  font-weight: 400;
-  margin: 0 0 30px;
-  max-width: 620px;
 }
 .project-detail-body p{ font-size: 17px; max-width: 600px; }
 /* ---------------------------- Project gallery -------------------------------- */
@@ -358,13 +364,13 @@ p.muted{ color: var(--muted); }
 }
 
 /* ---------------------------- Project detail header -------------------------- */
-.project-detail-header{ margin-bottom: 32px; }
+.project-detail-header{ margin-bottom: 20px; }
 
 .project-detail-title{
   font-size: 34px;
   font-style: italic;
   font-weight: 400;
-  margin: 0 0 12px;
+  margin: 0 0 6px;
   max-width: 700px;
 }
 .project-curated-by{
@@ -373,7 +379,7 @@ p.muted{ color: var(--muted); }
   letter-spacing: 0.02em;
   text-transform: uppercase;
   color: var(--muted);
-  margin: 6px 0 0;
+  margin: 2px 0 0;
 }
 
 /* ---------------------------- Project detail image + body -------------------- */
@@ -533,8 +539,10 @@ p.muted{ color: var(--muted); }
   .content{ padding: 48px 24px 90px; max-width: 100%; }
   .home-view{ min-height: auto; padding: 20px 0 10px; }
   .home-tagline{ font-size: 22px; }
-  .home-photos{ flex-wrap: wrap; }
-  .home-photo{ width: 120px; height: 150px; }
+  .home-photos{
+    grid-template-columns: 1fr 1fr;
+  }
+  .home-photo-1, .home-photo-2, .home-photo-3{ width: 100%; }
   .project-detail-title{ font-size: 27px; }
   .project-detail-columns{ grid-template-columns: 1fr; gap: 24px; }
 }
