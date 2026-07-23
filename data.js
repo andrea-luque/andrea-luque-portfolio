@@ -118,7 +118,10 @@ const SITE = {
   { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "p0brediabla - On The Floor - Some Music, 2026" },
   { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Mariia Lutsak - Soft Longing, 2025" },
   { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
-  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
+  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" },
+  { src: "images/curatorial/light7.PNG", alt: "Installation view", caption: "Sima — installation view, 2026" },
+  { src: "images/curatorial/light8.PNG", alt: "Installation view", caption: "Jammal — installation view, 2026" },
+  { src: "images/curatorial/light9.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
@@ -299,7 +302,10 @@ const SITE = {
   { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "p0brediabla - On The Floor - Some Music, 2026" },
   { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Mariia Lutsak - Soft Longing, 2025" },
   { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
-  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
+  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" },
+  { src: "images/curatorial/light7.PNG", alt: "Installation view", caption: "Sima — installation view, 2026" },
+  { src: "images/curatorial/light8.PNG", alt: "Installation view", caption: "Jammal — installation view, 2026" },
+  { src: "images/curatorial/light9.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
@@ -480,7 +486,10 @@ const SITE = {
   { src: "images/curatorial/light2.PNG", alt: "Installation view", caption: "p0brediabla - On The Floor - Some Music, 2026" },
   { src: "images/curatorial/light3.PNG", alt: "Installation view", caption: "Mariia Lutsak - Soft Longing, 2025" },
   { src: "images/curatorial/lightfades4.jpg", alt: "Installation view", caption: "Mariia Lutsak — installation view, 2026" },
-  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" }
+  { src: "images/curatorial/lightfades5.jpg", alt: "Installation view", caption: "robin c wolf — installation view, 2026" },
+  { src: "images/curatorial/light7.PNG", alt: "Installation view", caption: "Sima — installation view, 2026" },
+  { src: "images/curatorial/light8.PNG", alt: "Installation view", caption: "Jammal — installation view, 2026" },
+  { src: "images/curatorial/light9.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
           },
