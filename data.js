@@ -95,7 +95,8 @@ const SITE = {
              images: [
               { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Eva Fomitski - SPILLNYY COD, 2024" },
               { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Onyx Chladilová - Utopia of Hopes, 2025" },
-              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - " },
+              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - Flor de Micelios, 2025" },
+              { src: "images/curatorial/stretch4.JPG", alt: "Installation view, wide", caption: "Zoe Spehr - I want to unzip myself and tuck you, 2025" },
             ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
@@ -275,7 +276,8 @@ const SITE = {
              images: [
               { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Eva Fomitski - SPILLNYY COD, 2024" },
               { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Onyx Chladilová - Utopia of Hopes, 2025" },
-              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - " },
+              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - Flor de Micelios, 2025" },
+              { src: "images/curatorial/stretch4.JPG", alt: "Installation view, wide", caption: "Zoe Spehr - I want to unzip myself and tuck you, 2025" },
             ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
@@ -455,7 +457,8 @@ const SITE = {
              images: [
               { src: "images/curatorial/stretch1.jpg", alt: "Installation view", caption: "Eva Fomitski - SPILLNYY COD, 2024" },
               { src: "images/curatorial/stretch2.heic", alt: "Installation view, detail", caption: "Onyx Chladilová - Utopia of Hopes, 2025" },
-              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - " },
+              { src: "images/curatorial/stretch3.jpg", alt: "Installation view, wide", caption: "Pascual Candel - Flor de Micelios, 2025" },
+              { src: "images/curatorial/stretch4.JPG", alt: "Installation view, wide", caption: "Zoe Spehr - I want to unzip myself and tuck you, 2025" },
             ],
             artists: ["Michalina Marta Cap", "Pascual Candel", "Carina Chang", "Onyx Chladilova", "Eva Fomitski", "Yunsun Noh", "Aduni Ogunsun", "Lesia", "Mariam Salah", "Isabella Sherwani Keeling", "Zoe Spehr", "Julieta Tetelbaum", "Hannah Wilder"]
           },
