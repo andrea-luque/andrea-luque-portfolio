@@ -73,7 +73,7 @@ const SITE = {
             ],
             images: [
               { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
-              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025", focal: "center 20%" },
               { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
               { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
               { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
@@ -124,7 +124,7 @@ const SITE = {
           },
           {
             slug: "where-the-memory-got-tangled",
-            title: "Where the Memory Got Tangled",
+            title: "Allí donde se enredó la memoria",
             venue: "Studio4000, Berlin",
             date: "26–28 June 2026",
             summary: "An exhibition inquiry into memory, trace and affect.",
@@ -254,7 +254,7 @@ const SITE = {
   ],
   images: [
               { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
-              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025", focal: "center 20%" },
               { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
               { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
               { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
@@ -435,7 +435,7 @@ const SITE = {
   ],
   images: [
               { src: "images/curatorial/spaceinbetween2.jpg", alt: "Installation view, detail", caption: "Pascual Candel — Skinphone, 2025" },
-              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025" },
+              { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025", focal: "center 20%" },
               { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
               { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
               { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
@@ -486,7 +486,7 @@ const SITE = {
           },
           {
             slug: "where-the-memory-got-tangled",
-            title: "Allà on es va enredar la memòria",
+            title: "Allí donde se enredó la memoria",
             venue: "Studio4000, Berlín",
             date: "26–28 de juny de 2026",
             summary: "Una exposició que indaga en la memòria, l'empremta i l'afecte.",
