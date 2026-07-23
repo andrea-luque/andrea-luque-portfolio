@@ -136,9 +136,11 @@ const SITE = {
               "There, Where Memory Became Entangled seeks to make visible the threads that connect individual experience to collective memory, inviting reflection on the ways memories are transmitted, transformed, and continue to inhabit us."
             ],
              images: [
-  { src: "images/curatorial/memorytangled1.jpg", alt: "Installation view", caption: "Raquel González Obregón — installation view, 2026" },
-  { src: "images/curatorial/memorytangled2.jpg", alt: "Installation view, detail", caption: "Raquel González Obregón — detail, 2026" },
-  { src: "images/curatorial/memorytangled3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — wide view, 2026" }
+  { src: "images/curatorial/memoria1.jpg", alt: "Installation view", caption: "Raquel González Obregón — Allí donde se enredó la memoria, 2026" },
+  { src: "images/curatorial/memoria2.jpg", alt: "Installation view, detail", caption: "Raquel González Obregón — Allí donde se enredó la memoria, 2026" },
+  { src: "images/curatorial/memoria3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria4.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria5.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
 ],
             artists: ["Raquel González Obregón"]
           }
@@ -314,9 +316,11 @@ const SITE = {
               "Allí donde se enredó la memoria busca hacer visibles los hilos que conectan la experiencia individual con la memoria colectiva, invitando a reflexionar sobre las formas en que los recuerdos se transmiten, se transforman y siguen habitándonos."
             ],
              images: [
-  { src: "images/curatorial/memorytangled1.jpg", alt: "Vista de instalación", caption: "Raquel González Obregón — vista de instalación, 2026" },
-  { src: "images/curatorial/memorytangled2.jpg", alt: "Vista de instalación, detalle", caption: "Raquel González Obregón — detalle, 2026" },
-  { src: "images/curatorial/memorytangled3.jpg", alt: "Vista de instalación, general", caption: "Raquel González Obregón — vista general, 2026" }
+  { src: "images/curatorial/memoria1.jpg", alt: "Installation view", caption: "Raquel González Obregón — Allí donde se enredó la memoria, 2026" },
+  { src: "images/curatorial/memoria2.jpg", alt: "Installation view, detail", caption: "Raquel González Obregón — Allí donde se enredó la memoria, 2026" },
+  { src: "images/curatorial/memoria3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria4.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria5.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
 ],
             artists: ["Raquel González Obregón"]
           }
@@ -492,9 +496,11 @@ const SITE = {
               "Allà on es va enredar la memòria busca fer visibles els fils que connecten l'experiència individual amb la memòria col·lectiva, tot convidant a reflexionar sobre les maneres en què els records es transmeten, es transformen i continuen habitant-nos."
             ],
              images: [
-  { src: "images/curatorial/memorytangled1.jpg", alt: "Vista de la instal·lació", caption: "Raquel González Obregón — vista de la instal·lació, 2026" },
-  { src: "images/curatorial/memorytangled2.jpg", alt: "Vista de la instal·lació, detall", caption: "Raquel González Obregón — detall, 2026" },
-  { src: "images/curatorial/memorytangled3.jpg", alt: "Vista de la instal·lació, general", caption: "Raquel González Obregón — vista general, 2026" }
+  { src: "images/curatorial/memoria1.jpg", alt: "Installation view", caption: "Raquel González Obregón — Allí donde se enredó la memoria, 2026" },
+  { src: "images/curatorial/memoria2.jpg", alt: "Installation view, detail", caption: "Raquel González Obregón — Allí donde se enredó la memoria, 2026" },
+  { src: "images/curatorial/memoria3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria4.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria5.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
 ],
             artists: ["Raquel González Obregón"]
           }
