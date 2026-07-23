@@ -137,7 +137,7 @@
   const imageBlock = images
     ? `<figure class="project-figure" data-index="0">
         <div class="project-figure-frame">
-          ${images.map((img, i) => `<img src="${img.src}" alt="${img.alt || ''}" class="${i === 0 ? 'active' : ''}">`).join("")}
+          ${images.map((img, i) => `<img src="${img.src}" alt="${img.alt || ''}" class="${i === 0 ? 'active' : ''}" style="${img.focal ? `object-position:${img.focal};` : ''}">`).join("")}
           <button type="button" class="gallery-arrow prev" data-dir="-1" aria-label="Previous"><span>‹</span></button>
           <button type="button" class="gallery-arrow next" data-dir="1" aria-label="Next"><span>›</span></button>
         </div>
