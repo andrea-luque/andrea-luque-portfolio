@@ -92,16 +92,14 @@
   const views = {
 
     home(t) {
-      return `
-        <section class="view home-view">
-          <p class="home-tagline">${t.home.tagline}</p>
-          <div class="home-photos">
-            <img class="home-photo home-photo-1" src="images/curatorial/fotohome1.JPG" alt="">
-            <img class="home-photo home-photo-2" src="images/curatorial/fotohome2.JPG" alt="">
-            <img class="home-photo home-photo-3" src="images/curatorial/fotohome3.jpg" alt="">
-          </div>
-        </section>`;
-    },
+  return `
+    <section class="view home-view">
+      <p class="home-tagline">${t.home.tagline}</p>
+      <div class="home-photos">
+        <img class="home-photo" src="images/curatorial/fotohome1.JPG" alt="">
+      </div>
+    </section>`;
+},
 
     about(t) {
       return `
