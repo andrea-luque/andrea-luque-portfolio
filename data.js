@@ -145,6 +145,12 @@ const SITE = {
   { src: "images/curatorial/memoria3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
   { src: "images/curatorial/memoria4.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
   { src: "images/curatorial/memoria5.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria6.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria7.PNG", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria8.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria9.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria10.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria11.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
 ],
             artists: ["Raquel González Obregón"]
           }
@@ -329,6 +335,12 @@ const SITE = {
   { src: "images/curatorial/memoria3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
   { src: "images/curatorial/memoria4.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
   { src: "images/curatorial/memoria5.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria6.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria7.PNG", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria8.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria9.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria10.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria11.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
 ],
             artists: ["Raquel González Obregón"]
           }
@@ -513,6 +525,12 @@ const SITE = {
   { src: "images/curatorial/memoria3.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
   { src: "images/curatorial/memoria4.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
   { src: "images/curatorial/memoria5.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria6.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria7.PNG", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria8.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria9.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria10.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
+  { src: "images/curatorial/memoria11.jpg", alt: "Installation view, wide", caption: "Raquel González Obregón — Allí donde se enredó la memoris, 2026" },
 ],
             artists: ["Raquel González Obregón"]
           }
