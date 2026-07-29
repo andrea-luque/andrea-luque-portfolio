@@ -76,7 +76,9 @@ const SITE = {
               { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025", focal: "center 20%" },
               { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
               { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
-              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+              { src: "images/curatorial/space11.PNG", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+              { src: "images/curatorial/space11.jpg", alt: "Installation view, wide", caption: "The Space in Between, 2025" },
+              { src: "images/curatorial/space12.jpg", alt: "Installation view, wide", caption: "Lesia -, 2024" },
             ],
             artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
           },
@@ -266,7 +268,9 @@ const SITE = {
               { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025", focal: "center 20%" },
               { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
               { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
-              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+              { src: "images/curatorial/space11.PNG", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+              { src: "images/curatorial/space11.jpg", alt: "Installation view, wide", caption: "The Space in Between, 2025" },
+              { src: "images/curatorial/space12.jpg", alt: "Installation view, wide", caption: "Lesia -, 2024" },
             ],
   artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
 },
@@ -456,7 +460,9 @@ const SITE = {
               { src: "images/curatorial/spaceinbetween3.JPG", alt: "Installation view, wide", caption: "Pascual Candel — Skinscreen, 2025", focal: "center 20%" },
               { src: "images/curatorial/spaceinbetween4.jpg", alt: "Installation view", caption: "Sadie Weis — Simulacra Mandibula 001, 2024" },
               { src: "images/curatorial/spaceinbetween5.jpg", alt: "Installation view, wide", caption: "Johanna Grotzke — Mind The Body Gap, 2025" },
-              { src: "images/curatorial/spaceinbetween6.jpg", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+              { src: "images/curatorial/space11.PNG", alt: "Installation view, wide", caption: "Johanna Dreyer - Day 4 / Day 28, 2024" },
+              { src: "images/curatorial/space11.jpg", alt: "Installation view, wide", caption: "The Space in Between, 2025" },
+              { src: "images/curatorial/space12.jpg", alt: "Installation view, wide", caption: "Lesia -, 2024" },
             ],
   artists: ["Ingrato", "Jana Smetanina", "Johanna Grotzke", "Johanna Dreyer", "Koko Meister", "Lesia", "Liisi Hint", "Maria Ladapoulos", "Pascual Candel", "Sadie Weis"]
 },
