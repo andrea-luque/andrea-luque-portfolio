@@ -87,24 +87,58 @@
   }
 
   /* ---------------------------------------------------------------------
+     Sitewide footer — the "curious about my work?" call to action,
+     available-for-work badge, socials and copyright line.
+     --------------------------------------------------------------------- */
+  function renderFooter(lang) {
+    const t = SITE.content[lang];
+
+    document.getElementById("footer-cta1").textContent = t.footer.cta1;
+    document.getElementById("footer-cta2").textContent = t.footer.cta2;
+    document.getElementById("footer-cta3").textContent = t.footer.cta3;
+
+    const getInTouch = document.getElementById("footer-get-in-touch");
+    getInTouch.textContent = t.footer.getInTouch;
+    getInTouch.href = `#/${lang}/contact`;
+
+    document.getElementById("footer-available").textContent = t.footer.available;
+
+    const linkedin = document.getElementById("footer-linkedin");
+    linkedin.href = SITE.linkedin;
+    const instagram = document.getElementById("footer-instagram");
+    instagram.href = SITE.instagram;
+
+    document.getElementById("footer-copyright").textContent =
+      `© ${new Date().getFullYear()} ${SITE.name}. All rights reserved.`;
+  }
+
+  /* ---------------------------------------------------------------------
      View renderers — each returns an HTML string
      --------------------------------------------------------------------- */
   const views = {
 
     home(t) {
-  return `
+      const [firstName, ...rest] = SITE.name.split(" ");
+      const lastName = rest.join(" ");
+      return `
     <section class="view home-view">
+      <div class="home-hero">
+        <h1 class="home-name-line">${firstName}</h1>
+        <h1 class="home-name-line home-name-line--italic">${lastName}</h1>
+      </div>
+      <p class="home-role">${t.role}</p>
       <p class="home-tagline">${t.home.tagline}</p>
+      <a class="home-cta-link" href="#/${state.lang}/curatorial">${t.home.enter} &rarr;</a>
       <div class="home-photos">
         <img class="home-photo" src="images/curatorial/fotohome1.JPG" alt="">
       </div>
     </section>`;
-},
+    },
 
     about(t) {
       return `
         <section class="view about-body">
-          
+          <p class="eyebrow">${t.about.eyebrow}</p>
           <h1 class="page-title">${t.about.heading}</h1>
           ${t.about.body.map((p) => `<p>${p}</p>`).join("")}
         </section>`;
@@ -119,7 +153,7 @@
 
       return `
         <section class="view">
-   
+          <p class="eyebrow">${t.curatorial.eyebrow}</p>
           <h1 class="page-title">${t.curatorial.heading}</h1>
           <p class="muted" style="max-width:520px;margin-bottom:30px;">${t.curatorial.intro}</p>
           <div class="project-grid">${items}</div>
@@ -176,7 +210,7 @@
 
       return `
         <section class="view">
-        
+          <p class="eyebrow">${t.practice.eyebrow}</p>
           <h1 class="page-title">${t.practice.heading}</h1>
           <div class="skills-groups">${groups}</div>
         </section>`;
@@ -195,7 +229,7 @@
 
       return `
         <section class="view">
-          
+          <p class="eyebrow">${t.cv.eyebrow}</p>
           <h1 class="page-title">${t.cv.heading}</h1>
           <div class="cv-list">${rows}</div>
           <a class="cv-download" href="${SITE.cvPdf}" download>${t.cv.downloadCv}</a>
@@ -212,7 +246,7 @@
 
       return `
         <section class="view">
-          
+          <p class="eyebrow">${t.education.eyebrow}</p>
           <h1 class="page-title">${t.education.heading}</h1>
           <div class="edu-list">${rows}</div>
         </section>`;
@@ -221,7 +255,7 @@
     contact(t) {
       return `
         <section class="view">
-          
+          <p class="eyebrow">${t.contact.eyebrow}</p>
           <h1 class="page-title">${t.contact.heading}</h1>
           <p class="contact-intro">${t.contact.intro}</p>
           <div class="contact-list">
@@ -252,6 +286,7 @@
     const t = SITE.content[state.lang];
 
     renderSidebar(state.lang, state.view, state.slug);
+    renderFooter(state.lang);
 
     let html;
     if (state.view === "curatorial" && state.slug) {
