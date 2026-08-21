@@ -124,11 +124,11 @@
     <section class="view home-view">
       <div class="home-hero">
         <h1 class="home-name-line">${firstName}</h1>
-        <h1 class="home-name-line home-name-line--italic">${lastName}</h1>
+        <h1 class="home-name-line">${lastName}</h1>
       </div>
       <p class="home-role">${t.role}</p>
-      <p class="home-tagline">${t.home.tagline}</p>
       <a class="home-cta-link" href="#/${state.lang}/curatorial">${t.home.enter} &rarr;</a>
+      <p class="home-tagline-big">${t.home.tagline}</p>
       <div class="home-photos">
         <img class="home-photo" src="images/curatorial/fotohome1.JPG" alt="">
       </div>
@@ -145,18 +145,29 @@
     },
 
     curatorial(t) {
-      const items = t.curatorial.projects.map((p) => `
-        <a class="project-entry" href="#/${state.lang}/curatorial/${p.slug}">
-          <h3 class="project-title">${p.title}</h3>
-          <div class="project-meta"><span>${p.date}</span><span>${p.venue}</span></div>
-        </a>`).join("");
+      const cards = t.curatorial.projects.map((p) => {
+        const thumb = p.images && p.images.length ? p.images[0].src : "";
+        return `
+        <a class="project-card" href="#/${state.lang}/curatorial/${p.slug}">
+          <div class="project-card-image">
+            <img src="${thumb}" alt="" loading="lazy">
+          </div>
+          <h3 class="project-card-title">${p.title}</h3>
+          <div class="project-card-meta"><span>${p.date}</span><span>${p.venue}</span></div>
+        </a>`;
+      }).join("");
 
       return `
         <section class="view">
           <p class="eyebrow">${t.curatorial.eyebrow}</p>
-          <h1 class="page-title">${t.curatorial.heading}</h1>
+          <h1 class="page-title page-title--big">${t.curatorial.title}</h1>
+          <h2 class="page-subtitle">${t.curatorial.heading}</h2>
           <p class="muted" style="max-width:520px;margin-bottom:30px;">${t.curatorial.intro}</p>
-          <div class="project-grid">${items}</div>
+          <div class="project-card-grid">${cards}</div>
+          <div class="curatorial-subsection">
+            <p class="eyebrow">${t.curatorial.eventsLabel}</p>
+            <p class="muted">${t.curatorial.moreSoon}</p>
+          </div>
         </section>`;
     },
 
