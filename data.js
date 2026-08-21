@@ -54,9 +54,12 @@ const SITE = {
 
       curatorial: {
         eyebrow: "work.",
+        title: "Work",
         heading: "Curatorial Work",
         intro: "A selection of exhibitions and curatorial projects, from concept to installation.",
         backToList: "Back to Curatorial Work",
+        eventsLabel: "Events — Production Team",
+        moreSoon: "More projects coming soon.",
         curatedByLabel: "Curated by:",
         coCuratedByLabel: "Co-curated by:",
         artistsLabel: "Artists Featured:",
@@ -270,9 +273,12 @@ const SITE = {
 
       curatorial: {
         eyebrow: "trabajo.",
+        title: "Trabajo",
         heading: "Proyectos Curatoriales",
         intro: "Una selección de exposiciones y proyectos curatoriales, desde la idea hasta el montaje.",
         backToList: "Volver a Proyectos Curatoriales",
+        eventsLabel: "Eventos — Equipo de Producción",
+        moreSoon: "Más proyectos próximamente.",
         curatedByLabel: "Comisariado por:",
         coCuratedByLabel: "Co-comisariado por:",
         artistsLabel: "Artistas participantes:",
@@ -484,9 +490,12 @@ const SITE = {
 
       curatorial: {
         eyebrow: "treball.",
+        title: "Treball",
         heading: "Projectes Curatorials",
         intro: "Una selecció d'exposicions i projectes curatorials, des de la idea fins al muntatge.",
         backToList: "Tornar a Projectes Curatorials",
+        eventsLabel: "Esdeveniments — Equip de Producció",
+        moreSoon: "Més projectes properament.",
         curatedByLabel: "Comissariat per:",
         coCuratedByLabel: "Co-comissariat per:",
         artistsLabel: "Artistes participants:",
