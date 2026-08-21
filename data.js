@@ -7,6 +7,7 @@
 const SITE = {
 
   name: "Andrea Luque Martín",
+  initials: "AL",
 
   /* Sidebar footer */
   email: "andrealuque04@gmail.com",
@@ -15,7 +16,7 @@ const SITE = {
 
   /* Path to a downloadable CV. Drop a PDF at assets/cv/ and point this
      at it (one per language works too, e.g. "assets/cv/cv-en.pdf"). */
-  cvPdf: "Andrea-Luque-Martin-CV.pdf",
+  cvPdf: "assets/cv/Andrea-Luque-Martin-CV.pdf",
 
   content: {
 
@@ -37,10 +38,11 @@ const SITE = {
       home: {
         tagline: "Developing and coordinating cultural projects.",
         cta: "Berlin / Barcelona.",
-        enter: "Enter site"
+        enter: "View selected work"
       },
 
       about: {
+        eyebrow: "about.",
         heading: "About Me",
         body: [
           "I’m a cultural manager and curator based in Berlin, originally from Barcelona. I develop exhibitions and cultural programmes across contemporary art and music, working across curating, cultural production and artist management.",
@@ -51,6 +53,7 @@ const SITE = {
       },
 
       curatorial: {
+        eyebrow: "work.",
         heading: "Curatorial Work",
         intro: "A selection of exhibitions and curatorial projects, from concept to installation.",
         backToList: "Back to Curatorial Work",
@@ -128,9 +131,9 @@ const SITE = {
   { src: "images/curatorial/light7.PNG", alt: "Installation view", caption: "Sima — installation view, 2026" },
   { src: "images/curatorial/light8.PNG", alt: "Installation view", caption: "Jammal — installation view, 2026" },
   { src: "images/curatorial/light9.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
-  { src: "images/curatorial/light4.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
-  { src: "images/curatorial/light5.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
-  { src: "images/curatorial/light55.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
+  { src: "images/curatorial/light4.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
+  { src: "images/curatorial/light5.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
+  { src: "images/curatorial/light55.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
   { src: "images/curatorial/ligh555.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
@@ -168,6 +171,7 @@ const SITE = {
       },
 
       practice: {
+        eyebrow: "practice.",
         heading: "Practice",
         groups: [
           {
@@ -186,6 +190,7 @@ const SITE = {
       },
 
       cv: {
+        eyebrow: "cv.",
         heading: "CV / Experience",
         downloadCv: "Download CV (PDF)",
         entries: [
@@ -199,6 +204,7 @@ const SITE = {
       },
 
       education: {
+        eyebrow: "education.",
         heading: "Education",
         entries: [
           { degree: "BA in Philosophy, specialization in Applied Philosophy", place: "Universitat Autònoma de Barcelona (UAB)", period: "2018–2022" },
@@ -207,12 +213,21 @@ const SITE = {
       },
 
       contact: {
+        eyebrow: "contact.",
         heading: "Contact",
         intro: "Open to cultural management, curatorial and production opportunities. Get in touch to discuss collaborations, projects or new ideas.",
         location: "Berlin / Barcelona",
         emailLabel: "Email",
         instagramLabel: "Instagram",
         linkedinLabel: "LinkedIn"
+      },
+
+      footer: {
+        cta1: "Curious about my work?",
+        cta2: "Looking for a new partner for your creative project?",
+        cta3: "Or just wanting to connect?",
+        getInTouch: "Get in Touch",
+        available: "Available For Work"
       },
 
       meta: {
@@ -239,10 +254,11 @@ const SITE = {
       home: {
         tagline: "Desarrollo y coordinación de proyectos culturales",
         cta: "Berlín / Barcelona",
-        enter: "Entrar"
+        enter: "Ver trabajo seleccionado"
       },
 
       about: {
+        eyebrow: "sobre mí.",
         heading: "Sobre mí",
         body: [
           "Soy gestora cultural y comisaria en Berlín, nacida en Barcelona. Desarrollo exposiciones y programas culturales en el ámbito del arte contemporáneo y la música, trabajando entre el comisariado, la producción cultural y la gestión de artistas.",
@@ -253,6 +269,7 @@ const SITE = {
       },
 
       curatorial: {
+        eyebrow: "trabajo.",
         heading: "Proyectos Curatoriales",
         intro: "Una selección de exposiciones y proyectos curatoriales, desde la idea hasta el montaje.",
         backToList: "Volver a Proyectos Curatoriales",
@@ -328,9 +345,9 @@ const SITE = {
   { src: "images/curatorial/light7.PNG", alt: "Installation view", caption: "Sima — installation view, 2026" },
   { src: "images/curatorial/light8.PNG", alt: "Installation view", caption: "Jammal — installation view, 2026" },
   { src: "images/curatorial/light9.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
-  { src: "images/curatorial/light4.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
-  { src: "images/curatorial/light5.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
-  { src: "images/curatorial/light55.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
+  { src: "images/curatorial/light4.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
+  { src: "images/curatorial/light5.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
+  { src: "images/curatorial/light55.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
   { src: "images/curatorial/ligh555.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
@@ -368,6 +385,7 @@ const SITE = {
       },
 
       practice: {
+        eyebrow: "áreas.",
         heading: "Áreas",
         groups: [
           {
@@ -386,6 +404,7 @@ const SITE = {
       },
 
       cv: {
+        eyebrow: "cv.",
         heading: "CV / Experiencia",
         downloadCv: "Descargar CV (PDF)",
         entries: [
@@ -399,6 +418,7 @@ const SITE = {
       },
 
       education: {
+        eyebrow: "formación.",
         heading: "Formación",
         entries: [
           { degree: "Grado en Filosofía, itinerario de Filosofía Aplicada", place: "Universitat Autònoma de Barcelona (UAB)", period: "2018–2022" },
@@ -407,12 +427,21 @@ const SITE = {
       },
 
       contact: {
+        eyebrow: "contacto.",
         heading: "Contacto",
         intro: "Abierta a oportunidades de gestión cultural, comisariado y producción. Ponte en contacto para hablar de colaboraciones, proyectos o nuevas ideas.",
         location: "Berlín / Barcelona",
         emailLabel: "Correo",
         instagramLabel: "Instagram",
         linkedinLabel: "LinkedIn"
+      },
+
+      footer: {
+        cta1: "¿Curiosidad por mi trabajo?",
+        cta2: "¿Buscas un nuevo partner para tu proyecto creativo?",
+        cta3: "¿O solo quieres conectar?",
+        getInTouch: "Ponte en contacto",
+        available: "Disponible para trabajar"
       },
 
       meta: {
@@ -439,10 +468,11 @@ const SITE = {
       home: {
         tagline: "Desenvolupament i coordinació de projectes culturals",
         cta: "Berlin / Barcelona",
-        enter: "Entrar"
+        enter: "Veure treball seleccionat"
       },
 
       about: {
+        eyebrow: "sobre mi.",
         heading: "Sobre mi",
         body: [
           "Soc gestora cultural i comissària a Berlín, nascuda a Barcelona. Desenvolupo exposicions i programes culturals en l’àmbit de l’art contemporani i la música, treballant entre el comissariat, la producció cultural i la gestió d’artistes.",
@@ -453,6 +483,7 @@ const SITE = {
       },
 
       curatorial: {
+        eyebrow: "treball.",
         heading: "Projectes Curatorials",
         intro: "Una selecció d'exposicions i projectes curatorials, des de la idea fins al muntatge.",
         backToList: "Tornar a Projectes Curatorials",
@@ -528,9 +559,9 @@ const SITE = {
   { src: "images/curatorial/light7.PNG", alt: "Installation view", caption: "Sima — installation view, 2026" },
   { src: "images/curatorial/light8.PNG", alt: "Installation view", caption: "Jammal — installation view, 2026" },
   { src: "images/curatorial/light9.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
-  { src: "images/curatorial/light4.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
-  { src: "images/curatorial/light5.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
-  { src: "images/curatorial/light55.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },          
+  { src: "images/curatorial/light4.PNG", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
+  { src: "images/curatorial/light5.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
+  { src: "images/curatorial/light55.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
   { src: "images/curatorial/ligh555.jpg", alt: "Installation view", caption: "As The Light Fades — wide view, 2026" },
 ],
             artists: ["Serafima Bresles", "Théo Guézennec", "Jamal Khalili", "Angelina Lambrikht", "Mariia Lutsak", "Rory Malone", "robin c wolf", "p0brediabla"]
@@ -568,6 +599,7 @@ const SITE = {
       },
 
       practice: {
+        eyebrow: "àrees.",
         heading: "Àrees",
         groups: [
           {
@@ -586,6 +618,7 @@ const SITE = {
       },
 
       cv: {
+        eyebrow: "cv.",
         heading: "CV / Experiència",
         downloadCv: "Descarregar CV (PDF)",
         entries: [
@@ -599,6 +632,7 @@ const SITE = {
       },
 
       education: {
+        eyebrow: "formació.",
         heading: "Formació",
         entries: [
           { degree: "Grau en Filosofia, itinerari de Filosofia Aplicada", place: "Universitat Autònoma de Barcelona (UAB)", period: "2018–2022" },
@@ -607,12 +641,21 @@ const SITE = {
       },
 
       contact: {
+        eyebrow: "contacte.",
         heading: "Contacte",
         intro: "Oberta a oportunitats de gestió cultural, comissariat i producció. Posa't en contacte per parlar de col·laboracions, projectes o noves idees.",
         location: "Berlín / Barcelona",
         emailLabel: "Correu",
         instagramLabel: "Instagram",
         linkedinLabel: "LinkedIn"
+      },
+
+      footer: {
+        cta1: "Curiositat pel meu treball?",
+        cta2: "Busques un nou partner per al teu projecte creatiu?",
+        cta3: "O simplement vols connectar?",
+        getInTouch: "Posa't en contacte",
+        available: "Disponible per treballar"
       },
 
       meta: {
