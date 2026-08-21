@@ -2,9 +2,9 @@
    Design tokens
    ========================================================================== */
 :root{
-  --bg:        #ffffff;
+  --bg:        #faf9f6;
   --ink:       #17191a;
-  --muted:     #17191a;
+  --muted:     #6b6a63;
   --rule:      #e2ded4;
   --rule-2:    #d2cdc0;
   --sidebar-w: 320px;
@@ -50,7 +50,7 @@ ul{ list-style: none; margin: 0; padding: 0; }
   min-height: 100vh;
 }
 
-/* ---------------------------- Sidebar (ahora barra superior) ------------ */
+/* ---------------------------- Header / top nav -------------------------- */
 .sidebar{
   width: 100%;
   flex-shrink: 0;
@@ -75,10 +75,39 @@ ul{ list-style: none; margin: 0; padding: 0; }
 
 .identity{
   display: flex;
-  flex-direction: column;
-  gap: 2px;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
   order: 1;
   flex-shrink: 0;
+}
+
+/* Monogram mark — the site's signature wordmark, echoes the favicon */
+.identity-mark{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--rule-2);
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 14px;
+  color: var(--ink);
+  flex-shrink: 0;
+  transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+}
+.identity:hover .identity-mark{
+  background: var(--ink);
+  color: var(--bg);
+  border-color: var(--ink);
+}
+
+.identity-text{
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 .identity-name{
   font-family: var(--helvetica);
@@ -168,6 +197,7 @@ ul{ list-style: none; margin: 0; padding: 0; }
   padding: 64px 64px 120px;
   max-width: 760px;
   margin: 0 auto;
+  width: 100%;
 }
 
 .content:focus{ outline: none; }
@@ -182,9 +212,9 @@ ul{ list-style: none; margin: 0; padding: 0; }
 
 .eyebrow{
   font-family: var(--mono);
-  font-size: 11.5px;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: lowercase;
   color: var(--muted);
   margin: 0 0 14px;
 }
@@ -200,23 +230,33 @@ h1.page-title, h2.page-title{
 p{ margin: 0 0 18px; color: var(--ink); }
 p.muted{ color: var(--muted); }
 
-/* ---------------------------- Home --------------------------------------- */
+/* ---------------------------- Home ---------------------------------------
+   Big stacked wordmark, à la Dàlila Cataldi's Framer site: two oversized
+   lines of the name, a small role line, tagline, and a CTA into the work.
+   ---------------------------------------------------------------------- */
 .home-view{
-  min-height: calc(100vh - 208px);
+  min-height: calc(100vh - 250px);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-.home-tagline{
-  font-size: 44px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.25;
-  max-width: 640px;
-  margin: 0 0 34px;
+
+.home-hero{ margin-bottom: 22px; }
+.home-name-line{
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: clamp(52px, 9vw, 108px);
+  line-height: 0.98;
+  letter-spacing: -0.01em;
+  margin: 0;
   animation: bounce-up 0.75s cubic-bezier(0.34, 1.56, 0.64, 1) both;
 }
-.home-tagline em{ font-style: italic; }
+.home-name-line--italic{
+  font-weight: 400;
+  font-style: italic;
+  color: var(--muted);
+  animation-delay: 0.06s;
+}
 @keyframes bounce-up{
   0%{ opacity: 0; transform: translateY(46px); }
   55%{ opacity: 1; transform: translateY(-10px); }
@@ -224,15 +264,17 @@ p.muted{ color: var(--muted); }
   100%{ opacity: 1; transform: translateY(0); }
 }
 
-.home-cta{
+.home-role{
   font-family: var(--mono);
   font-size: 12.5px;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
   color: var(--muted);
+  margin: 18px 0 26px;
   position: relative;
   padding-left: 16px;
 }
-.home-cta::before{
+.home-role::before{
   content: "";
   position: absolute;
   left: 0;
@@ -243,6 +285,29 @@ p.muted{ color: var(--muted); }
   background: var(--ink);
 }
 
+.home-tagline{
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.4;
+  max-width: 560px;
+  color: var(--muted);
+  margin: 0 0 26px;
+}
+
+.home-cta-link{
+  display: inline-block;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--ink);
+  padding-bottom: 4px;
+  margin-bottom: 44px;
+  transition: opacity 0.15s ease;
+}
+.home-cta-link:hover{ opacity: 0.6; }
+
 /* Home photo: single large image below the tagline. */
 .home-photos{
   margin-top: 10px;
@@ -252,7 +317,7 @@ p.muted{ color: var(--muted); }
   display: block;
   width: 100%;
   height: auto;
-  max-height: 60vh;
+  max-height: 50vh;
   object-fit: cover;
   border: 1px solid var(--rule);
   background: var(--bg);
@@ -522,11 +587,98 @@ p.muted{ color: var(--muted); }
 }
 
 /* ==========================================================================
+   Sitewide footer — mirrors the Framer reference's closing CTA block:
+   a soft-italic question, a "Get in Touch" button, availability badge,
+   socials, and a copyright line.
+   ========================================================================== */
+.site-footer{
+  border-top: 1px solid var(--rule);
+  padding: 56px 64px 40px;
+}
+.footer-inner{
+  max-width: 760px;
+  margin: 0 auto;
+}
+.footer-cta{ margin-bottom: 40px; }
+.footer-cta-line{
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: clamp(22px, 3.4vw, 32px);
+  font-weight: 400;
+  line-height: 1.3;
+  color: var(--ink);
+  margin: 0;
+  max-width: 620px;
+}
+.footer-get-in-touch{
+  display: inline-block;
+  margin-top: 24px;
+  font-family: var(--mono);
+  font-size: 12.5px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  border: 1px solid var(--ink);
+  padding: 12px 22px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+.footer-get-in-touch:hover{ background: var(--ink); color: var(--bg); }
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding-top: 24px;
+  border-top: 1px solid var(--rule);
+}
+.footer-available{
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--ink);
+  position: relative;
+  padding-left: 16px;
+}
+.footer-available::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4caf6d;
+}
+.footer-social{
+  display: flex;
+  gap: 16px;
+  font-family: var(--mono);
+  font-size: 11.5px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+.footer-social a{
+  text-decoration: underline;
+  text-decoration-color: var(--rule-2);
+  text-underline-offset: 3px;
+}
+.footer-social a:hover{ text-decoration-color: var(--ink); }
+.footer-copyright{
+  margin-left: auto;
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--muted);
+}
+
+/* ==========================================================================
    Responsive
    ========================================================================== */
 @media (max-width: 860px){
   .content{ padding: 64px 40px 100px; }
   .cv-entry{ grid-template-columns: 1fr; gap: 6px; }
+  .site-footer{ padding: 48px 40px 32px; }
 }
 
 @media (max-width: 720px){
@@ -547,12 +699,17 @@ p.muted{ color: var(--muted); }
   .main-nav > ul{ flex-direction: column; align-items: flex-start; gap: 11px; }
   .content{ padding: 48px 24px 90px; max-width: 100%; }
   .home-view{ min-height: auto; padding: 20px 0 10px; }
-  .home-tagline{ font-size: 30px; }
+  .home-name-line{ font-size: clamp(40px, 14vw, 64px); }
+  .home-tagline{ font-size: 18px; }
   .project-detail-title{ font-size: 27px; }
   .project-detail-columns{ grid-template-columns: 1fr; gap: 24px; }
   .project-detail-body{
     column-count: 1;
   }
+  .site-footer{ padding: 40px 24px 28px; }
+  .footer-cta-line{ font-size: 24px; }
+  .footer-bottom{ flex-direction: column; align-items: flex-start; gap: 12px; }
+  .footer-copyright{ margin-left: 0; }
 }
 /* ---------------------------- Project gallery (carousel) ---------------------------- */
 .project-figure{
