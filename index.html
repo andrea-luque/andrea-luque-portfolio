@@ -13,17 +13,20 @@
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css?v=3">
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,700;1,6..72,400;1,6..72,500&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=4">
 </head>
 <body>
 <div class="layout">
-  <!-- ============================ SIDEBAR ============================ -->
+  <!-- ============================ HEADER / NAV ============================ -->
   <header class="sidebar">
     <div class="sidebar-top">
       <a href="#/en/home" class="identity" data-route="home">
-        <span class="identity-name" id="identity-name">Andrea Luque Martín</span>
-        <span class="identity-role" id="identity-role">Cultural Manager &amp; Curator — Berlin</span>
+        <span class="identity-mark" aria-hidden="true">AL</span>
+        <span class="identity-text">
+          <span class="identity-name" id="identity-name">Andrea Luque Martín</span>
+          <span class="identity-role" id="identity-role">Cultural Manager &amp; Curator — Berlin</span>
+        </span>
       </a>
       <nav class="lang-switch" id="lang-switch" aria-label="Language">
         <button type="button" data-lang="en">EN</button>
@@ -52,12 +55,33 @@
       <span class="sidebar-location" id="sidebar-location">Barcelona → Berlin</span>
     </div>
   </header>
+
   <!-- ============================ CONTENT ============================ -->
   <main class="content" id="content" tabindex="-1">
     <!-- rendered by app.js -->
   </main>
+
+  <!-- ============================ FOOTER ============================ -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-cta">
+        <p class="footer-cta-line" id="footer-cta1">Curious about my work?</p>
+        <p class="footer-cta-line" id="footer-cta2">Looking for a new partner for your creative project?</p>
+        <p class="footer-cta-line" id="footer-cta3">Or just wanting to connect?</p>
+        <a class="footer-get-in-touch" id="footer-get-in-touch" href="#/en/contact">Get in Touch</a>
+      </div>
+      <div class="footer-bottom">
+        <span class="footer-available" id="footer-available">Available For Work</span>
+        <div class="footer-social">
+          <a id="footer-linkedin" href="https://linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+          <a id="footer-instagram" href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a>
+        </div>
+        <span class="footer-copyright" id="footer-copyright">© 2026 Andrea Luque Martín. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
 </div>
-<script src="data.js?v=2"></script>
-<script src="app.js?v=2"></script>
+<script src="data.js?v=3"></script>
+<script src="app.js?v=3"></script>
 </body>
 </html>
